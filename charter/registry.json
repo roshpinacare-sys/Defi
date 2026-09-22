@@ -1,0 +1,17 @@
+{
+  "publishedAt": "2026-09-22T04:57:00.544Z",
+  "projects": [
+    {
+      "slug": "first-external-build",
+      "name": "הבנייה החיצונית הראשונה",
+      "purpose": "בדיקת חיות מלאה של מספנת הצ׳רטרים: סוכן חיצוני ללא גישת-ריפו מקים פרויקט על הרשת דרך טוקן וחוזה, חתום בספר ומפורסם לקנון.",
+      "status": "CHARTERED",
+      "builderName": "glm-53-builder",
+      "builderAddress": "0xa04A13940724159096e7183366Bc720994Ce58B2",
+      "attSeq": 6,
+      "attEntryHash": "0x7550908c78e9513c1d614268cf747559ec431d0d2c7e0c4118d908d5482d415f",
+      "artifacts": 3,
+      "charterAt": "2026-09-22T04:55:25.584Z"
+    }
+  ]
+}
