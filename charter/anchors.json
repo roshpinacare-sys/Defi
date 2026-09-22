@@ -1,0 +1,19 @@
+{
+  "format": "charter-anchors-v1",
+  "opId": "saos.weave.charter.v1",
+  "chain": "steem",
+  "account": "headcorner",
+  "updatedAt": "2026-09-22T13:39:06.865Z",
+  "note": "יומן עוגנים — כל רשומה אומתה מההיסטוריה של Steem לפני הכתיבה (confirmedBy=chain-read).",
+  "anchors": [
+    {
+      "attSeq": 369,
+      "at": "2026-09-22T13:39:06.833Z",
+      "root": "0x6b17f25215be6c8faf9cba471644f78c8ba1ca8d8908c5a22be2ac4918e994d5",
+      "txid": "dac15ecf700d3bbae176e424c3da5135b72d2e45",
+      "block": 109803116,
+      "projects": 2,
+      "events": 0
+    }
+  ]
+}
