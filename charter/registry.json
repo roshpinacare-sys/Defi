@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-09-22T04:58:53.661Z",
+  "publishedAt": "2026-09-22T05:03:16.401Z",
   "projects": [
     {
       "slug": "first-external-build",
@@ -12,6 +12,18 @@
       "attEntryHash": "0x7550908c78e9513c1d614268cf747559ec431d0d2c7e0c4118d908d5482d415f",
       "artifacts": 3,
       "charterAt": "2026-09-22T04:55:25.584Z"
+    },
+    {
+      "slug": "ui-issued-lifecycle",
+      "name": "מחזור-חיים מלא מהמספנה",
+      "purpose": "הוכחה מקצה לקצה: טוקן שהונפק דרך שער המפעיל ב-UI משמש סוכן חיצוני להקמת פרויקט על הרשת — הכל דרך טוקן וחוזה, בלי גישת-ריפו.",
+      "status": "CHARTERED",
+      "builderName": "glm-53-ui-builder",
+      "builderAddress": "0x0dEFE1D429fb643731D3942AC028d2E025e42256",
+      "attSeq": 12,
+      "attEntryHash": "0x92de519e42fa1bf4c3194caac530fdfe6959b388ef2e307fa5726f9beae29cc2",
+      "artifacts": 0,
+      "charterAt": "2026-09-22T05:03:16.378Z"
     }
   ]
 }
