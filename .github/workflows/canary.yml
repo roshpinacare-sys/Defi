@@ -1,0 +1,15 @@
+# ── הקנרית של הצייד (R82) ────────────────────────────────────────────
+# בדיקת-שער מינימלית: עבודה של שניות אחת. אם היא מצליחה — לדקות
+# של המחזור במחסנים הפרטיים חזרה זרימה, והשער נפתח. הצייד
+# (mini-services/hunter) משגר אותה כל 6 שעות ומדווח בכנות.
+name: canary
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 */6 * * *"
+jobs:
+  chirp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+      - run: echo "canary alive $(date -u +%Y-%m-%dT%H:%M:%SZ)"
