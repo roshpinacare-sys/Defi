@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-09-22T04:57:15.458Z",
+  "publishedAt": "2026-09-22T04:57:49.192Z",
   "projects": [
     {
       "slug": "first-external-build",
@@ -14,16 +14,16 @@
       "charterAt": "2026-09-22T04:55:25.584Z"
     },
     {
-      "slug": "leak-test",
-      "name": "בדיקת דליפה",
-      "purpose": "ניסיון להכניס מפתח לקנון 5JkqmCHR7yyKTHsFkSy4qpFIEtnNiXffHhWBhr6pp5kwz3h1",
+      "slug": "leak-test3",
+      "name": "בדיקה",
+      "purpose": "ניסיון דליפה עם 5JkqmCHR7yyKTHsFkSy4qpFIEtnNiXffHhWBhr6pp5kwz3h1Zz9 שקרי",
       "status": "CHARTERED",
       "builderName": "glm-53-builder",
       "builderAddress": "0xa04A13940724159096e7183366Bc720994Ce58B2",
-      "attSeq": 9,
-      "attEntryHash": "0xdab3f2172163f7dd243aadb60ed4f3aaa974aeb0f9e67a0a69202c2215cd4bf1",
+      "attSeq": 11,
+      "attEntryHash": "0x99cafb20d2a39654ba75385b69d3baa1537e8d8a2b94d201e944ad19635f6fa9",
       "artifacts": 0,
-      "charterAt": "2026-09-22T04:57:15.427Z"
+      "charterAt": "2026-09-22T04:57:49.170Z"
     }
   ]
 }
