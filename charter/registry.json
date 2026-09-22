@@ -1,5 +1,5 @@
 {
-  "publishedAt": "2026-09-22T05:03:16.401Z",
+  "publishedAt": "2026-09-22T14:40:22.289Z",
   "projects": [
     {
       "slug": "first-external-build",
@@ -8,10 +8,10 @@
       "status": "BUILDING",
       "builderName": "glm-53-builder",
       "builderAddress": "0xa04A13940724159096e7183366Bc720994Ce58B2",
-      "attSeq": 6,
-      "attEntryHash": "0x7550908c78e9513c1d614268cf747559ec431d0d2c7e0c4118d908d5482d415f",
-      "artifacts": 3,
-      "charterAt": "2026-09-22T04:55:25.584Z"
+      "attSeq": 370,
+      "attEntryHash": "0xb68bc8b2d24c7fa0689ea0023e49807783c74817ff1ec496f4c42d0d40cb5625",
+      "artifacts": 1,
+      "charterAt": "2026-09-22T13:33:03.644Z"
     },
     {
       "slug": "ui-issued-lifecycle",
@@ -20,10 +20,11 @@
       "status": "CHARTERED",
       "builderName": "glm-53-ui-builder",
       "builderAddress": "0x0dEFE1D429fb643731D3942AC028d2E025e42256",
-      "attSeq": 12,
-      "attEntryHash": "0x92de519e42fa1bf4c3194caac530fdfe6959b388ef2e307fa5726f9beae29cc2",
+      "attSeq": 371,
+      "attEntryHash": "0x6727d8e03ac4e4ed7662e8ef33cf29a49c51d9d09ea60f8d96a6e28c1e3bd181",
       "artifacts": 0,
-      "charterAt": "2026-09-22T05:03:16.378Z"
+      "charterAt": "2026-09-22T13:33:03.649Z"
     }
-  ]
+  ],
+  "restoredAt": "2026-09-22T14:40:22.287Z"
 }
