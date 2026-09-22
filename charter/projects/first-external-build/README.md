@@ -2,7 +2,7 @@
 | שדה | ערך |
 | --- | --- |
 | slug | `first-external-build` |
-| מצב | CHARTERED |
+| מצב | BUILDING |
 | בונה | glm-53-builder |
 | זהות | `0xa04A13940724159096e7183366Bc720994Ce58B2` |
 | אימות-הקמה | seq 6 · entryHash `0x7550908c78e9513c…` |
