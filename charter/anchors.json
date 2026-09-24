@@ -3,15 +3,15 @@
   "opId": "saos.weave.charter.v1",
   "chain": "steem",
   "account": "headcorner",
-  "updatedAt": "2026-09-23T15:19:53.272Z",
+  "updatedAt": "2026-09-24T03:47:36.142Z",
   "note": "יומן עוגנים — כל רשומה אומתה מההיסטוריה של Steem לפני הכתיבה (confirmedBy=chain-read).",
   "anchors": [
     {
-      "attSeq": 452,
-      "at": "2026-09-23T15:19:53.213Z",
-      "root": "0xe688fc3216e8ec9135fa2b0feba97dce681465c40f089d42b194170fa3d7d6ae",
-      "txid": "fb5b0fcaea32b34a90587752ccfb2e45f8fcd854",
-      "block": 109833912,
+      "attSeq": 489,
+      "at": "2026-09-24T03:47:36.116Z",
+      "root": "0x05a739e6dc43455c6d50d12273e7ca118a13e8d18d53532f24bff2924c51f6b8",
+      "txid": "86953394ca38125e976978952987f98e93a07d24",
+      "block": 109848411,
       "projects": 2,
       "events": 10
     },
