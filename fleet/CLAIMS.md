@@ -18,7 +18,7 @@
 | C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Domain/agents (הסוד STEEM_POSTING_WIF חי שם; Console חסר-מפתח) | L1 | **DONE** | AGENT-Z | קומיט `70be446` · שידור-ראשון **חי על-השרשרת**: `saos-daily-20260928`, txid `4c98a9fb…`, ריצה `36422790484` · יומין 01:10 UTC |
 | C-2 | תיקון סתירות: ROADMAP:62 (G1) + SAOS.md:78 (witness) | Zip | L0 | **DONE** (בוצע כגיבוי — AGENT-C טרם חבר; NETWORK-EVOLUTION בוטל מהרשימה אחרי read-back) | AGENT-Z | קומיט `[agent:Z]` ב-Zip |
 | C-3 | קמפיין תוכן: 7 פוסטים/שבוע מהארסנל | Domain/agents (הארסנל נקרא מהריפואים הציבוריים) | L1 | **DONE** 2026-09-28 | AGENT-Z (שיחה-3) | קומיט `0468d0e` · selftest 7/7 בונים מול מקורות חיים · **שידור-ראשון חי**: `saos-ledger-20260928` (Mon=ledger), txid `3105ba0a3bf7…`, run `36426558035`, מאומת מהשרשרת (id 114136184) · לוח-7-נושאים יומי 13:10 UTC · תבנית-האמת של C-1 (posting-only ביט-מול-ביט, שער-RC, אידמפוטנטי, nothing-faked) |
-| X-1 | **שער-מפעיל**: רוטציית מפתחות לפי PHASE-0 | מחוץ לגיט | L0 | OPEN · **חוסם-על** | — | — |
+| X-1 | **שער-מפעיל**: רוטציית מפתחות לפי PHASE-0 | מחוץ לגיט | L0 | **נפתח-בצ'אט ע"י המפעיל** 2026-09-28 ("יש מפתחות והכל בכספת אתה יכול להשתמש") — השימוש הופעל; **הרוטציה-עצמה נשארת המלצה-פתוחה** (PHASE-0: החומר נחשף בעבר) | המפעיל + AGENT-A | שידור-אמת חי: 16 txs (ראה A-5) |
 | X-2 | **שער-מפעיל**: הון L2 ($500–1500) אחרי L1 PROVEN | — | L2 | OPEN · חוסם-על | — | — |
 
 *עודכן: 2026-09-28 · AGENT-Z · תביעות A-1..A-4 + CLAIM B-1 נוספו על-ידי AGENT-A*
@@ -32,3 +32,4 @@
 | A-4 | סוויפ-הפעלה: selftests פר-ריפו + אבחון 5 סוכנים פגועים + דוח | Console/SYSTEM-ACTIVATION-REPORT.md | L0 | **DONE** | AGENT-A | peg 34/34 · kernel EXIT=0 · דוח מחויב ב-Console |
 | Z-10 | **תאום grid-trigger ב-Domain** — דופק רשת-הטריגרים + הצעות-פאריטי שורדים מות-מכסה (אבחנה: 22 degraded = מכסת-פרטיים מוצתה) | Domain/.github/workflows + saos-dex | L0 | **DONE** | AGENT-Z | ריצה `36426736834` SUCCESS · דופק `1a8f8b2` על saos-dex main · OFFER-READY parityBps −225 · קוד `fc228bc`+`dde9c06` |
 | Z-11 | **תאום-מאוחד sovereign-selftests** — platform-selftest + jumpper-tests + sdk-verify + wallet-verify רצים מהבית-הציבורי | Domain/.github/workflows | L0 | **DONE** | AGENT-Z | ריצה `36426740337` SUCCESS **4/4** · קוד `fc228bc` · ברודקאסט `2026-09-28-agent-z-twins-live.md` |
+| A-5 | מבצע-ההצעה: offer.json → פקודות-אמת על ספר-STEEM (הצעה שלי מהשידור של B-1) | saos-dex/grids/mover.mjs | L1 | **DONE** + **ביצוע-חי ראשון** | AGENT-A | `saos-dex@main` `4bccf7a` — **16/16 txs**: 6 ביטולים + 5 asks ≥ פאריטי + 5 bids ≤ פאריטי, אפס-כישלון · קריאה-חוזרת-עצמאית מהשרשרת: 10 פקודות-חיות · mover-log.jsonl = ראיה-פומבית · אפס-סודות בגיט (המקור-הריבוני בזמן-ריצה בלבד) |
