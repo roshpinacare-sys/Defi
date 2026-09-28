@@ -1,0 +1,185 @@
+{
+ "generatedAt": "2026-09-28T13:22:15.174Z",
+ "source": "KEYS-BACKUP-2026-09-09.tar.enc (sha256 5753a90cdad893b2… — integrity verified vs agent/recovery-meta.json)",
+ "accounts": [
+  {
+   "username": "cashmachine",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "haran",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "israelnews",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "lsa",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "macrame",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "siq",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "tov",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": "synced on STEEM (posting+active+owner) but MISMATCHED on HIVE all roles — the earlier repair was steem-only; the kit hive pass fixes this"
+  },
+  {
+   "username": "wic",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "wog",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "woq",
+   "tier": "operator",
+   "mode": "master-derive",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [
+    "posting",
+    "active",
+    "owner"
+   ],
+   "note": ""
+  },
+  {
+   "username": "ynet",
+   "tier": "operator",
+   "mode": "operator-delegated",
+   "chains": [
+    "steem",
+    "hive"
+   ],
+   "vaultLiveMatch": [],
+   "note": "lives through head posting account_auth — rotation = own key or keep through-head"
+  },
+  {
+   "username": "headcorner",
+   "tier": "head",
+   "mode": "recovered-from-operator",
+   "chains": [
+    "0",
+    "1"
+   ],
+   "vaultLiveMatch": [],
+   "note": "rotated post-backup — live keys in cloud secrets + KEYS-ZIP (un-openable)"
+  }
+ ],
+ "zipSealFinding": "KEYS-ZIP-2026-09-10.zip.enc (committed sha b96b053d3fdd9e5b…) does NOT open with any passphrase available locally (recovery-meta keysZipPass sealed archive 488a2ef3… that was never pushed). Only KEYS-BACKUP opens. Operator must re-seal KEYS-ZIP after rotation.",
+ "kitSelftest": {
+  "at": "2026-09-28T13:27:02.308Z",
+  "dryRun": "2/2 plans built vs live chain (cashmachine, tov) — owner gate ✓, account_auths preserved, no broadcast",
+  "failClosedGate": "headcorner+ynet refused honestly (no owner key in vault) — exit clean",
+  "verifyTool": "cashmachine ✓ steem+hive · haran ✓ steem+hive · tov ✗ hive (real finding, documented)"
+ }
+}
