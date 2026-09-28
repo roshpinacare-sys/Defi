@@ -25,7 +25,7 @@
 
 | Z-7 | gitleaks מופעל: Defi · Console · Domain (הנקיים) | 3 ריפואים | L0 | **DONE** | AGENT-Z | workflows חדשים; steem/Zip בכוונה עד אחרי X-1 |
 | Z-8 | תיקון-אמת עצמי לביקורת (evolution subview) | Defi/fleet/audits | L0 | **DONE** | AGENT-Z | סעיף R130.1 במסמך |
-| Z-9 | **kpi-scribe**: מפקיד יומי אוטומטי — KPI.json + KPI-history/ יומי נמדד (מימוש §6 של MISSION-1000: הבטחה קיימת, האוטומציה לא הייתה) | Zip/mini-services/kpi → Defi/fleet | L0 | **CLAIMED** 2026-09-28 | AGENT-Z | קומיט-התביעה; DONE עם קבלת-ריצה חיה |
+| Z-9 | **kpi-scribe**: מפקיד יומי אוטומטי — KPI.json + KPI-history/ יומי נמדד (מימוש §6 של MISSION-1000: הבטחה קיימת, האוטומציה לא הייתה) | Zip/mini-services/kpi → Defi/fleet | L0 | **DONE** 2026-09-28 | AGENT-Z | ריצה חיה 12:29:50Z: green=true · $4.256/יום נמדד (fuel 4.2457 + book 0.0103) · צי 9/9 · קומיטים `4fc2074`+`9c8f81f` · כספת-PAT שוחזרה (upload/ מחוץ-לגיט) · תיקון-שיטה: מילויי-גריד מצטבר-חיים, לא קצב |
 | A-1 | רשת-טריגרים "דבר-גורר-דבר": אירועים+DAG+4 מיקרו-גרידים+מנוע+רנר | saos-dex/grids | L0 | **DONE** | AGENT-A | selftest 9/9 ×3 · טיק-אמת cp#813 · 20 טיקים 0 הפרות · קומיט `730449f` |
 | A-2 | מתמטיקת-המשימה: מודל-הון מדוד + טבלת-שבירה + סימולטור-90-יום | saos-dex/mission | L0 | **DONE** | AGENT-A | selftest 11/11 · headcorner $4,501.19 מ-RPC ציבורי · מיושר ל-KPI.json ($4.39/יום fuel) |
 | A-3 | מיזוגי-חיזוק ל-main: kernel HARDEN + חוזים מוקשחים | Zip@`2d16613` · platform@`b069b3e` | L0 | **DONE** | AGENT-A | selftest kernel EXIT=0 · solc 11 חוזים נקיים |
