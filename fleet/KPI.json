@@ -1,85 +1,113 @@
 {
-  "ok": true,
-  "version": 1,
-  "updatedAt": "2026-09-28T12:15:00Z",
-  "updatedBy": "AGENT-Z (B-2 test gate DONE)",
-  "mission": "MISSION-1000",
-  "ladder": {
-    "current": "L0",
-    "next": "L1",
-    "targetPerDay": 0,
-    "proven": false
+ "ok": true,
+ "version": 1,
+ "updatedAt": "2026-09-28T12:25:54.418Z",
+ "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
+ "mission": "MISSION-1000",
+ "ladder": {
+  "current": "L0",
+  "next": "L1",
+  "targetPerDay": 0,
+  "proven": false,
+  "consecutiveGreenDays": 1,
+  "asOfDay": "2026-09-28",
+  "noteHe": "L0 = הוכחת-מנוע: צי מלא + רשת בריאה + grid טרי + CI ירוק, 7 ימים רצופים (MISSION-1000 §1). הרצף נספר מקבצי KPI-history — יום חסר שובר את הרצף בכנות."
+ },
+ "revenuePerDayReal": {
+  "usd": 4.256,
+  "method": "fuel-engine weeklyUsd/7 (Console/dex/grid.json#fuel) + mission book usdPerDay7dAvg (/api/mission) — קצבים בלבד",
+  "breakdown": {
+   "fuelEngineUsdPerDay": 4.2457,
+   "missionBookUsdPerDay": 0.0103,
+   "gridExternalFillsLifetimeUsd": 0.171382,
+   "note": "Z-9 תיקון-שיטה מול יום-0: מילויי-גריד הם מצטבר-חיים ולא קצב — נרשמים למטה, לא נספרים ב-usdPerDay"
   },
-  "revenuePerDayReal": {
-    "usd": 5.05,
-    "method": "fuel-engine weeklyUsd 30.73/7 ≈ 4.39 + grid externalFlow 0.0057 + rounding",
-    "sources": [
-      "dex/grid.json#fuel.weeklyUsd (30.73)",
-      "dex/grid.json#filledTotal (1 fill, $0.0057)"
-    ],
-    "caveat": "פנימי-בלבד: עמלות USDS 258.72 ו-APY 15.25% הן סימולציה — לא נספרו כהכנסה אמיתית"
+  "sources": [
+   "Console/dex/grid.json#fuel.weeklyUsd (raw, נמדד בזמן-ריצה)",
+   "/api/mission → measured.usdPerDay7dAvg (sovereign/income/daily-*.json)",
+   "/api/mission → capital (מוביל-הכסף)",
+   "Console/dex/grid.json#externalFlowUsd (מצטבר-חיים)"
+  ],
+  "caveat": "פנימי-בלבד: עמלות USDS ו-APY הן סימולציה — לא נספרות כהכנסה. מנוע-הדלק = פאוורדאון SP חוץ אמיתי בקצב שבועי."
+ },
+ "triggers": {
+  "engine": "Console/triggers trigger-mesh v1.0.0",
+  "rules": 7,
+  "firstCiRun": {
+   "id": 36415329040,
+   "conclusion": "success",
+   "botCommit": "f889a5b"
   },
-  "triggers": {
-    "engine": "Console/triggers trigger-mesh v1.0.0",
-    "rules": 7,
-    "firstCiRun": {
-      "id": 36415329040,
-      "conclusion": "success",
-      "botCommit": "f889a5b"
-    },
-    "firedToday": 0,
-    "note": "המערכת ירוקה בזמן הזריעה — 0 טריגרים היא תוצאה כנה, לא תקלה",
-    "loopWiring": {
-      "consumer": "Console/agents/grid-pulse.mjs (R130 Z-5)",
-      "proofCiRun": 36416251171,
-      "proofField": "dex/grid.json#triggers.consumed (published live)",
-      "status": "WIRED-PROVEN"
-    }
+  "firedToday": 0,
+  "note": "אין טריגרים נצרכים במחזור האחרון — תוצאה כנה, לא תקלה",
+  "loopWiring": {
+   "consumer": "Console/agents/grid-pulse.mjs (R130 Z-5)",
+   "proofCiRun": 36416251171,
+   "proofField": "dex/grid.json#triggers.consumed (published live)",
+   "status": "WIRED-PROVEN"
   },
-  "agents": {
-    "registered": [
-      "AGENT-Z"
-    ],
-    "pending": [
-      "AGENT-B",
-      "AGENT-C"
-    ],
-    "claimsOpen": [
-      "B-1",
-      "B-3",
-      "C-1",
-      "C-3",
-      "X-1",
-      "X-2"
-    ],
-    "operatorGates": [
-      "X-1 key rotation",
-      "X-2 L2 capital"
-    ],
-    "claimsClosedToday": [
-      "Z-5",
-      "C-2(fallback)",
-      "Z-7",
-      "Z-8",
-      "B-2"
-    ]
-  },
-  "compliance": {
-    "secretsInCommits": 0,
-    "unmeasuredClaims": 0,
-    "phase0Done": false
-  },
-  "selfCorrections": 1,
-  "contractTests": {
-    "engine": "Foundry (forge 1.6.0, solc 0.8.36)",
-    "tests": 46,
-    "branch": "saos-sovereign-platform@fleet/r130 (9442b13)",
-    "ciProof": {
-      "repo": "Domain (public twin)",
-      "run": 36419435079,
-      "conclusion": "success"
-    },
-    "law": "audit-fix v5 regression: MINT_CAP / no-phantom-supply invariant / deposit attribution / monotonic anchors",
-    "note": "הריפו הפרטי אזל ממכסת Actions — השער רץ כ-twin יומי ב-Domain"
+  "chainRuns24h": 4,
+  "chainOk24h": 4,
+  "gridConsumedCount": 0,
+  "gridBookPublishedAt": "2026-09-28T11:23:14.715Z",
+  "lastCi": {
+   "id": null,
+   "conclusion": "no-run-found",
+   "createdAt": null
   }
+ },
+ "agents": {
+  "registered": [
+   "AGENT-Z"
+  ],
+  "pending": [
+   "AGENT-B",
+   "AGENT-C"
+  ],
+  "claimsOpen": [
+   "B-1",
+   "B-3",
+   "C-1",
+   "C-3",
+   "X-1",
+   "X-2"
+  ],
+  "operatorGates": [
+   "X-1 key rotation",
+   "X-2 L2 capital"
+  ],
+  "claimsClosedToday": [
+   "Z-5",
+   "C-2(fallback)",
+   "Z-7",
+   "Z-8",
+   "B-2"
+  ]
+ },
+ "compliance": {
+  "secretsInCommits": 0,
+  "unmeasuredClaims": 0,
+  "phase0Done": false,
+  "secretsBlockedToday": 0
+ },
+ "selfCorrections": 1,
+ "contractTests": {
+  "engine": "Foundry (forge 1.6.0, solc 0.8.36)",
+  "tests": 46,
+  "branch": "saos-sovereign-platform@fleet/r130 (9442b13)",
+  "ciProof": {
+   "repo": "Domain (public twin)",
+   "run": 36419435079,
+   "conclusion": "success"
+  },
+  "law": "audit-fix v5 regression: MINT_CAP / no-phantom-supply invariant / deposit attribution / monotonic anchors",
+  "note": "הריפו הפרטי אזל ממכסת Actions — השער רץ כ-twin יומי ב-Domain"
+ },
+ "dailyRecord": {
+  "day": "2026-09-28",
+  "green": true,
+  "streak": 1,
+  "historyPath": "fleet/KPI-history/2026-09-28.json",
+  "measuredAt": "2026-09-28T12:25:52.638Z"
+ }
 }
