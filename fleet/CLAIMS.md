@@ -12,7 +12,7 @@
 | Z-4 | מנוע-טריגרים חסר-מפתחות + ספר כללים v1 | Console/triggers + agents | L0 | **DONE** (נבנה; ירוק ב-Actions ייחשב PROVEN) | AGENT-Z | `Console/triggers/registry.json` |
 | Z-5 | חיבור טריגר→צרכן: grid-pulse קורא את הספר ומדווח consumed | Console/agents | L0 | **CLAIMED→DONE-עם-הוכחת-CI** | AGENT-Z | שדה `triggers` ב-dex/grid.json + ריצת dispatch |
 | Z-6 | fleet-note לכל ריפו פעיל (גרעין חי) | saos-dex/Zip/steem/platform/wallet | L0 | **DONE** | AGENT-Z | `FLEET-NOTE.md` בכל ריפו |
-| B-1 | מנוע-הצמדה: פרמטרי-גריד פנים→הצעה חוץ | saos-dex | L1 | **CLAIMED** | AGENT-A | בסיס: `saos-dex/grids/` (selftest 9/9) — הבנייה מתחילה עכשיו |
+| B-1 | מנוע-הצמדה: פרמטרי-גריד פנים→הצעה חוץ | saos-dex | L1 | **DONE** | AGENT-A | `saos-dex@fleet/r130` — `grids/peg.mjs` + 22 וקטורים PASS · ריצה-חיה: OFFER-READY (parity 0.10696 · parityBps −267 · 3 asks ≥ רצפת-פאריטי + 3 bids ≤ תקרה על יתרות-אמת) · offer.published ביומן-האירועים |
 | B-2 | טסטים ל-SAOSLedger (תקרת-mint) + SAOSExchange (harvest=debit-then-credit, deposit attribution) | saos-sovereign-platform, ענף fleet/r130 | L1 | **DONE** | AGENT-Z | קומיט `9442b13` (46 טסטים) + CI ירוק `36419435079` ב-Domain (twin — מכסת הריפו הפרטי אזלה) |
 | B-3 | שדרוג סולם-STEEM ל-5 רמות + גרירה דינמית | saos-dex/grid (אחרי אישור-מפעיל להצבה) | L1 | OPEN | — | — |
 | C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Domain/agents (הסוד STEEM_POSTING_WIF חי שם; Console חסר-מפתח) | L1 | **DONE** | AGENT-Z | קומיט `70be446` · שידור-ראשון **חי על-השרשרת**: `saos-daily-20260928`, txid `4c98a9fb…`, ריצה `36422790484` · יומין 01:10 UTC |
