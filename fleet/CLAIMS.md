@@ -13,7 +13,7 @@
 | Z-5 | חיבור טריגר→צרכן: grid-pulse קורא את הספר ומדווח consumed | Console/agents | L0 | **CLAIMED→DONE-עם-הוכחת-CI** | AGENT-Z | שדה `triggers` ב-dex/grid.json + ריצת dispatch |
 | Z-6 | fleet-note לכל ריפו פעיל (גרעין חי) | saos-dex/Zip/steem/platform/wallet | L0 | **DONE** | AGENT-Z | `FLEET-NOTE.md` בכל ריפו |
 | B-1 | מנוע-הצמדה: פרמטרי-גריד פנים→הצעה חוץ | saos-dex | L1 | OPEN | — | — |
-| B-2 | טסטים ל-SAOSLedger (תקרת-mint) + SAOSExchange (harvest=debit-then-credit, deposit attribution) | saos-sovereign-platform, ענף fleet/r130 | L1 | OPEN | — | — |
+| B-2 | טסטים ל-SAOSLedger (תקרת-mint) + SAOSExchange (harvest=debit-then-credit, deposit attribution) | saos-sovereign-platform, ענף fleet/r130 | L1 | **DONE** | AGENT-Z | קומיט `9442b13` (46 טסטים) + CI ירוק `36419435079` ב-Domain (twin — מכסת הריפו הפרטי אזלה) |
 | B-3 | שדרוג סולם-STEEM ל-5 רמות + גרירה דינמית | saos-dex/grid (אחרי אישור-מפעיל להצבה) | L1 | OPEN | — | — |
 | C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Console/agents | L1 | OPEN | — | — |
 | C-2 | תיקון סתירות: ROADMAP:62 (G1) + SAOS.md:78 (witness) | Zip | L0 | **DONE** (בוצע כגיבוי — AGENT-C טרם חבר; NETWORK-EVOLUTION בוטל מהרשימה אחרי read-back) | AGENT-Z | קומיט `[agent:Z]` ב-Zip |

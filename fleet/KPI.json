@@ -1,8 +1,8 @@
 {
   "ok": true,
   "version": 1,
-  "updatedAt": "2026-09-28T12:35:00Z",
-  "updatedBy": "AGENT-Z (R130 seed — baseline day 0)",
+  "updatedAt": "2026-09-28T12:15:00Z",
+  "updatedBy": "AGENT-Z (B-2 test gate DONE)",
   "mission": "MISSION-1000",
   "ladder": {
     "current": "L0",
@@ -46,7 +46,6 @@
     ],
     "claimsOpen": [
       "B-1",
-      "B-2",
       "B-3",
       "C-1",
       "C-3",
@@ -61,7 +60,8 @@
       "Z-5",
       "C-2(fallback)",
       "Z-7",
-      "Z-8"
+      "Z-8",
+      "B-2"
     ]
   },
   "compliance": {
@@ -69,5 +69,17 @@
     "unmeasuredClaims": 0,
     "phase0Done": false
   },
-  "selfCorrections": 1
+  "selfCorrections": 1,
+  "contractTests": {
+    "engine": "Foundry (forge 1.6.0, solc 0.8.36)",
+    "tests": 46,
+    "branch": "saos-sovereign-platform@fleet/r130 (9442b13)",
+    "ciProof": {
+      "repo": "Domain (public twin)",
+      "run": 36419435079,
+      "conclusion": "success"
+    },
+    "law": "audit-fix v5 regression: MINT_CAP / no-phantom-supply invariant / deposit attribution / monotonic anchors",
+    "note": "הריפו הפרטי אזל ממכסת Actions — השער רץ כ-twin יומי ב-Domain"
+  }
 }
