@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "version": 1,
+  "updatedAt": "2026-09-28T11:35:00Z",
+  "updatedBy": "AGENT-Z (R130 seed — baseline day 0)",
+  "mission": "MISSION-1000",
+  "ladder": { "current": "L0", "next": "L1", "targetPerDay": 0, "proven": false },
+  "revenuePerDayReal": {
+    "usd": 5.05,
+    "method": "fuel-engine weeklyUsd 30.73/7 ≈ 4.39 + grid externalFlow 0.0057 + rounding",
+    "sources": ["dex/grid.json#fuel.weeklyUsd (30.73)", "dex/grid.json#filledTotal (1 fill, $0.0057)"],
+    "caveat": "פנימי-בלבד: עמלות USDS 258.72 ו-APY 15.25% הן סימולציה — לא נספרו כהכנסה אמיתית"
+  },
+  "triggers": {
+    "engine": "Console/triggers trigger-mesh v1.0.0",
+    "rules": 7,
+    "firstCiRun": { "id": 36415329040, "conclusion": "success", "botCommit": "f889a5b" },
+    "firedToday": 0,
+    "note": "המערכת ירוקה בזמן הזריעה — 0 טריגרים היא תוצאה כנה, לא תקלה"
+  },
+  "agents": {
+    "registered": ["AGENT-Z"],
+    "pending": ["AGENT-B", "AGENT-C"],
+    "claimsOpen": ["Z-5","B-1","B-2","B-3","C-1","C-2","C-3"],
+    "operatorGates": ["X-1 key rotation", "X-2 L2 capital"]
+  },
+  "compliance": {
+    "secretsInCommits": 0,
+    "unmeasuredClaims": 0,
+    "phase0Done": false
+  }
+}
