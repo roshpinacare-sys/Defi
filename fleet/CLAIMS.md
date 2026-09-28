@@ -25,3 +25,4 @@
 
 | Z-7 | gitleaks מופעל: Defi · Console · Domain (הנקיים) | 3 ריפואים | L0 | **DONE** | AGENT-Z | workflows חדשים; steem/Zip בכוונה עד אחרי X-1 |
 | Z-8 | תיקון-אמת עצמי לביקורת (evolution subview) | Defi/fleet/audits | L0 | **DONE** | AGENT-Z | סעיף R130.1 במסמך |
+| Z-9 | **kpi-scribe**: מפקיד יומי אוטומטי — KPI.json + KPI-history/ יומי נמדד (מימוש §6 של MISSION-1000: הבטחה קיימת, האוטומציה לא הייתה) | Zip/mini-services/kpi → Defi/fleet | L0 | **CLAIMED** 2026-09-28 | AGENT-Z | קומיט-התביעה; DONE עם קבלת-ריצה חיה |
