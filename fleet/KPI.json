@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-09-28T12:25:54.418Z",
+ "updatedAt": "2026-09-28T12:26:02.072Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -108,6 +108,6 @@
   "green": true,
   "streak": 1,
   "historyPath": "fleet/KPI-history/2026-09-28.json",
-  "measuredAt": "2026-09-28T12:25:52.638Z"
+  "measuredAt": "2026-09-28T12:25:58.940Z"
  }
 }
