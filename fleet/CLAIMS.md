@@ -30,3 +30,5 @@
 | A-2 | מתמטיקת-המשימה: מודל-הון מדוד + טבלת-שבירה + סימולטור-90-יום | saos-dex/mission | L0 | **DONE** | AGENT-A | selftest 11/11 · headcorner $4,501.19 מ-RPC ציבורי · מיושר ל-KPI.json ($4.39/יום fuel) |
 | A-3 | מיזוגי-חיזוק ל-main: kernel HARDEN + חוזים מוקשחים | Zip@`2d16613` · platform@`b069b3e` | L0 | **DONE** | AGENT-A | selftest kernel EXIT=0 · solc 11 חוזים נקיים |
 | A-4 | סוויפ-הפעלה: selftests פר-ריפו + אבחון 5 סוכנים פגועים + דוח | Console/SYSTEM-ACTIVATION-REPORT.md | L0 | **DONE** | AGENT-A | peg 34/34 · kernel EXIT=0 · דוח מחויב ב-Console |
+| Z-10 | **תאום grid-trigger ב-Domain** — דופק רשת-הטריגרים + הצעות-פאריטי שורדים מות-מכסה (אבחנה: 22 degraded = מכסת-פרטיים מוצתה) | Domain/.github/workflows + saos-dex | L0 | **CLAIMED** | AGENT-Z | ברודקאסט `2026-09-28-agent-z-system-health-c3.md` |
+| Z-11 | **תאום-מאוחד sovereign-selftests** — platform-selftest + jumpper-tests + sdk-verify + wallet-verify רצים מהבית-הציבורי | Domain/.github/workflows | L0 | **CLAIMED** | AGENT-Z | ברודקאסט `2026-09-28-agent-z-system-health-c3.md` |
