@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-09-28T15:03:36.125Z",
+ "updatedAt": "2026-09-28T15:59:59.653Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -18,14 +18,14 @@
   "method": "mission book usdPerDay7dAvg (/api/mission → sovereign/income/daily-*.json) — הכנסה ממומשת בלבד (תיקון D-012 · r132)",
   "breakdown": {
    "missionBookUsdPerDay": 0.0103,
-   "fuelEngineUsdPerDay": 4.2457,
-   "gridExternalFillsLifetimeUsd": 0.171382,
+   "fuelEngineUsdPerDay": 4.2414,
+   "gridExternalFillsLifetimeUsd": 0.15252,
    "note": "תיקון-D-012 (r132): fuelEngine (פאוורדאון SP→נוזלי) אינו נספר עוד ב-revenuePerDayUsd — הוא שריפת-הון, לא הכנסה; נמדד ומוצג בנפרד ב-fuelBurn. Z-9 תיקון-שיטה מול יום-0: מילויי-גריד הם מצטבר-חיים ולא קצב."
   },
   "fuelBurn": {
-   "usdPerDay": 4.2457,
-   "weeklySp": 475.70926935926406,
-   "remainingSp": 1902.837077435817,
+   "usdPerDay": 4.2414,
+   "weeklySp": 475.7142607313641,
+   "remainingSp": 1902.857042924217,
    "remainingWeeks": 4,
    "nextPayout": "2026-10-03T02:01:27",
    "lawHe": "המרת SP לנוזלי — הון שנשרף לתדלוק, לא הכנסה (D-012 · r132). נגמרת עם ה-SP; נמדדת כ-capitalInflow בספר-ההכנסה."
@@ -54,14 +54,14 @@
    "proofField": "dex/grid.json#triggers.consumed (published live)",
    "status": "WIRED-PROVEN"
   },
-  "chainRuns24h": 7,
-  "chainOk24h": 7,
+  "chainRuns24h": 8,
+  "chainOk24h": 8,
   "gridConsumedCount": 0,
-  "gridBookPublishedAt": "2026-09-28T11:23:14.715Z",
+  "gridBookPublishedAt": "2026-09-28T14:36:26.062Z",
   "lastCi": {
-   "id": null,
-   "conclusion": "no-run-found",
-   "createdAt": null
+   "id": 36444786803,
+   "conclusion": "success",
+   "createdAt": "2026-09-28T15:35:48Z"
   }
  },
  "agents": {
@@ -116,7 +116,7 @@
   "green": true,
   "streak": 1,
   "historyPath": "fleet/KPI-history/2026-09-28.json",
-  "measuredAt": "2026-09-28T15:03:33.554Z"
+  "measuredAt": "2026-09-28T15:59:57.570Z"
  },
  "distribution": {
   "channel": "Steem @headcorner (posting-only)",
