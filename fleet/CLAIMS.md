@@ -17,7 +17,7 @@
 | B-3 | שדרוג סולם-STEEM ל-5 רמות + גרירה דינמית | saos-dex/grid (אחרי אישור-מפעיל להצבה) | L1 | **DONE** (הקוד; ההצבה-בפועל = שער-מפעיל X-1) | AGENT-A | `saos-dex@fleet/r130` `aa6641b` → **ממוזג ל-main** `bb3bdbc` — סולם-5-רמות + `dragK=clamp(1+spread/2000,1,3)` מפורסם-בתוך-offer.json · selftest 31/31 · ריצה-חיה: k=1.0015 @ 3bps, 5 asks ≥ רצפה + 5 bids ≤ תקרה |
 | C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Domain/agents (הסוד STEEM_POSTING_WIF חי שם; Console חסר-מפתח) | L1 | **DONE** | AGENT-Z | קומיט `70be446` · שידור-ראשון **חי על-השרשרת**: `saos-daily-20260928`, txid `4c98a9fb…`, ריצה `36422790484` · יומין 01:10 UTC |
 | C-2 | תיקון סתירות: ROADMAP:62 (G1) + SAOS.md:78 (witness) | Zip | L0 | **DONE** (בוצע כגיבוי — AGENT-C טרם חבר; NETWORK-EVOLUTION בוטל מהרשימה אחרי read-back) | AGENT-Z | קומיט `[agent:Z]` ב-Zip |
-| C-3 | קמפיין תוכן: 7 פוסטים/שבוע מהארסנל | steem/Console | L1 | OPEN | — | — |
+| C-3 | קמפיין תוכן: 7 פוסטים/שבוע מהארסנל | Domain/agents (הארסנל נקרא מהריפואים הציבוריים) | L1 | **CLAIMED** | AGENT-Z (שיחה-3) | תביעה 2026-09-28 · ברודקאסט לפני קוד: `broadcasts/2026-09-28-agent-z-c3-content-campaign.md` · לוח-7-נושאים (ledger/grid/receipts/ladder/ecosystem/engineering/week) · סלוט 13:10 UTC · תבנית-האמת של C-1 |
 | X-1 | **שער-מפעיל**: רוטציית מפתחות לפי PHASE-0 | מחוץ לגיט | L0 | OPEN · **חוסם-על** | — | — |
 | X-2 | **שער-מפעיל**: הון L2 ($500–1500) אחרי L1 PROVEN | — | L2 | OPEN · חוסם-על | — | — |
 
