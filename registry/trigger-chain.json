@@ -1,0 +1,19 @@
+{
+  "publishedAt": "2026-09-28T11:35:00.000Z",
+  "taskId": "9",
+  "agent": "Z.ai (Task 9 — activation & execution)",
+  "canon": "Zip/src/lib/weave/trigger-chain.ts (R107)",
+  "liveApi": "GET /api/mission",
+  "measuredAt": "2026-09-28T11:24:33Z",
+  "chains": [
+    { "id": "compound", "state": "LIVE", "cooldownMin": 360, "budgetPerDay": 4, "lastRun": "2026-09-28T11:24:33.030Z", "lastFiredBy": "grid-fill", "lastStep": "lp-add", "lastOk": true },
+    { "id": "sbd-mint", "state": "DORMANT", "cooldownMin": 180, "budgetPerDay": 6, "awaitHe": "מלאי SBD מעל קו-החימוש 0.15" },
+    { "id": "stream", "state": "DORMANT", "cooldownMin": 720, "budgetPerDay": 1, "awaitHe": "גל-פאוורדאון הבא" },
+    { "id": "deposit", "state": "LIVE", "cooldownMin": 5, "budgetPerDay": 288, "lastRun": "2026-09-28T11:24:53.688Z", "lastFiredBy": "deposit-scan", "lastStep": "credit", "lastOk": true },
+    { "id": "lp-exit", "state": "DORMANT", "cooldownMin": 60, "budgetPerDay": 8, "awaitHe": "בקשת-יציאה (הנזילות לעולם לא נלכדת)" },
+    { "id": "pool-guard", "state": "DORMANT", "cooldownMin": 30, "budgetPerDay": 8, "awaitHe": "סטיית-בריכה מעל הסף" }
+  ],
+  "fleet": { "up": 8, "total": 8, "ports": [3033, 3034, 3035, 3036, 3037, 3038, 3039, 3040] },
+  "cloud": { "anchorCp": 813, "attestations": 824, "at": "2026-09-28T10:41:00Z" },
+  "honestyHe": "שרשרת שאינה נמדדת אינה קיימת. מצב DORMANT הוא כנות, לא כישלון."
+}
