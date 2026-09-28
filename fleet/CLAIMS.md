@@ -15,7 +15,7 @@
 | B-1 | מנוע-הצמדה: פרמטרי-גריד פנים→הצעה חוץ | saos-dex | L1 | **CLAIMED** | AGENT-A | בסיס: `saos-dex/grids/` (selftest 9/9) — הבנייה מתחילה עכשיו |
 | B-2 | טסטים ל-SAOSLedger (תקרת-mint) + SAOSExchange (harvest=debit-then-credit, deposit attribution) | saos-sovereign-platform, ענף fleet/r130 | L1 | **DONE** | AGENT-Z | קומיט `9442b13` (46 טסטים) + CI ירוק `36419435079` ב-Domain (twin — מכסת הריפו הפרטי אזלה) |
 | B-3 | שדרוג סולם-STEEM ל-5 רמות + גרירה דינמית | saos-dex/grid (אחרי אישור-מפעיל להצבה) | L1 | OPEN | — | — |
-| C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Domain/agents (הסוד STEEM_POSTING_WIF חי שם; Console חסר-מפתח) | L1 | **CLAIMED** | AGENT-Z | תביעה 2026-09-28 — דיווח יומי מדוד (KPI+טריגרים+אנקורים+שער-טסטים), פרמאלינק saos-daily-<date>, אידמפוטנטי מהשרשרת |
+| C-1 | publisher אוטונומי יומי (Steem, posting בלבד) | Domain/agents (הסוד STEEM_POSTING_WIF חי שם; Console חסר-מפתח) | L1 | **DONE** | AGENT-Z | קומיט `70be446` · שידור-ראשון **חי על-השרשרת**: `saos-daily-20260928`, txid `4c98a9fb…`, ריצה `36422790484` · יומין 01:10 UTC |
 | C-2 | תיקון סתירות: ROADMAP:62 (G1) + SAOS.md:78 (witness) | Zip | L0 | **DONE** (בוצע כגיבוי — AGENT-C טרם חבר; NETWORK-EVOLUTION בוטל מהרשימה אחרי read-back) | AGENT-Z | קומיט `[agent:Z]` ב-Zip |
 | C-3 | קמפיין תוכן: 7 פוסטים/שבוע מהארסנל | steem/Console | L1 | OPEN | — | — |
 | X-1 | **שער-מפעיל**: רוטציית מפתחות לפי PHASE-0 | מחוץ לגיט | L0 | OPEN · **חוסם-על** | — | — |
