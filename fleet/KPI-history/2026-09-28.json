@@ -3,7 +3,7 @@
  "format": "kpi-day-v1",
  "day": "2026-09-28",
  "last": {
-  "at": "2026-09-28T12:25:52.638Z",
+  "at": "2026-09-28T12:25:58.940Z",
   "green": true,
   "checks": {
    "missionOk": true,
@@ -45,7 +45,7 @@
    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
   ],
   "notes": [
-   "FIRST-RECORD-EVER — המפקיד נולד היום; רצף הירוק מתחיל מכאן"
+   "RECORD-FORCED — נדרש ידנית (POST /record)"
   ]
  },
  "runs": [
@@ -233,6 +233,52 @@
    ],
    "notes": [
     "FIRST-RECORD-EVER — המפקיד נולד היום; רצף הירוק מתחיל מכאן"
+   ]
+  },
+  {
+   "at": "2026-09-28T12:25:58.940Z",
+   "green": true,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "9/9",
+    "fleetFull": true,
+    "gridFresh": true,
+    "gridAgeHours": 0.9,
+    "ci": {
+     "id": null,
+     "conclusion": "no-run-found",
+     "createdAt": null,
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 4.256,
+    "fuelEngineUsdPerDay": 4.2457,
+    "missionBookUsdPerDay": 0.0103,
+    "daysRecorded": 2,
+    "gridExternalFillsLifetimeUsd": 0.171382,
+    "capitalUsd": 29.72,
+    "steemUsd": 0.06343,
+    "triggers": {
+     "chainRuns24h": 4,
+     "chainOk24h": 4,
+     "gridConsumedCount": 0
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 1,
+    "asOf": "2026-09-28"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": [
+    "RECORD-FORCED — נדרש ידנית (POST /record)"
    ]
   }
  ]
