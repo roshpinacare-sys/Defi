@@ -66,3 +66,10 @@
   - claim_reward_balance ×7 (cashmachine/haran/lsa/macrame/wic/wog/woq) = 37.1657 VESTS rescued from 7-day expiry — all verified pending=0 on-chain.
   - transfer_to_vesting @headcorner **4.500 STEEM** → +7,262 VESTS (7,116,729→7,123,991, tx e3e2bceaff8c…) — curation weight +0.102%, compounding the $4.256/day kpi-scribe engine.
 - evidence: Console 3fe86e8 · Domain fbab9f7 · steem txs on-chain · this file.
+
+## Z-18 · AGENT-Z · 2026-09-29 · **CLAIMED** (בביצוע)
+- **Z-18a audit+continuity**: on-chain re-verify of first anchors (OP+BASE status=0x1) + full read-only audit + persistence doctrine (.fleet/) — DONE pre-claim (evidence: fleet-outbox, this broadcast).
+- **Z-18b today's signature**: vault repo-only reopen (Task-12 doctrine) → sovereign EOA key → anchor-execute OPTIMISM (+BASE) for dayRoot 0x3f668537… (2026-09-29) → receipts to public book → keyless verify. IN PROGRESS.
+- **Z-18c autonomy-forever**: set EVM_ANCHOR_PK Domain secret if PAT permits; else operator Path-A. PENDING.
+- **Z-18d A31 fix**: weave-heart output retargeted private-Zip → public-Console. PENDING.
+- **Z-18e outbox**: daily-claim (posting-only, home pattern steem@0.7.11/WEAVE_STEEM_WIF) + playbook + reputation-ledger-v0 + audit report into books. PENDING.
