@@ -80,3 +80,4 @@
 - **Z-18c autonomy-forever**: set EVM_ANCHOR_PK Domain secret if PAT permits; else operator Path-A. PENDING.
 - **Z-18d A31 fix**: weave-heart output retargeted private-Zip → public-Console. PENDING.
 - **Z-18e outbox**: daily-claim (posting-only, home pattern steem@0.7.11/WEAVE_STEEM_WIF) + playbook + reputation-ledger-v0 + audit report into books. PENDING.
+- **Z-19 self-audience LIVE**: sovereign directive "we are our own sovereign audience" → vault self-recovery (meta-history pairing, inner-sha verified) → byte-level key audit: 10/10 soldier posting keys LIVE (secp256k1 independent derivation; steem-js 52-char WIF parse bug isolated) · head keys stale in ALL vault generations (single operator dependency) → **22 votes VOTED-VERIFIED** (cross-voting, read-back, 0 failures) + **3 soldier posts POSTED-VERIFIED** (@woq/@siq/@tov · 2026-09-29) + daily workflow (14:30 UTC, fetch-depth:0, fail-soft, secretless receipts) → private steem repo `1d677619`. DONE.
