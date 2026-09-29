@@ -67,7 +67,14 @@
   - transfer_to_vesting @headcorner **4.500 STEEM** → +7,262 VESTS (7,116,729→7,123,991, tx e3e2bceaff8c…) — curation weight +0.102%, compounding the $4.256/day kpi-scribe engine.
 - evidence: Console 3fe86e8 · Domain fbab9f7 · steem txs on-chain · this file.
 
-## Z-18 · AGENT-Z · 2026-09-29 · **CLAIMED** (בביצוע)
+## Z-18 · AGENT-Z · 2026-09-29 · **DONE**
+- **Z-18a audit+continuity (DONE pre-claim)**: on-chain re-verify OP+BASE first anchors (status=0x1) · full read-only audit · .fleet/ persistence doctrine · evidence: fleet-outbox + 2026-09-29 broadcasts.
+- **Z-18b today's signature (DONE, מבוצע-חי ×2)**: vault repo-only reopen (Task-12 doctrine, memory-only, shred after) → sovereign key → **day 2026-09-29 dayRoot 0x3f668537… anchored: OP tx 0xed7daa6a…8fa35 block 157549128 status=0x1 · BASE tx 0x695e6eaf…81231 block 51953868 status=0x1** · inputMatchesBook bit-verified both · keyless verifier ANCHOR-VERIFIED exit 0 ×2 · receipts Console 33e7674. Rail hardening: chain-native receipt polling (publicnode-archive 403 fix) + ALREADY-ANCHORED dedup gate vs public book — Domain 4f14425.
+- **Z-18c autonomy-forever (DONE)**: **EVM_ANCHOR_PK secret set on Domain** (memory-only sodium sealed-box, PUT 201) → CI dispatch run 36593954856 SUCCESS proving `mode=SIGN` + all gates + honest ALREADY-ANCHORED skip. The hourly :55 cron now signs by itself — zero agent-session dependency, ever.
+- **Z-18d A31 fix (DONE, מבוצע-חי)**: evidence-based diagnosis v2 (weave-heart runs green; primary attests 8h but its CORE anchor line dead since 09-20 09:08 — Steem history confirms) → **dispatch weave-heart mode=force-beat (run 217 SUCCESS)** → cloud took command, ledger 913→914→915, **cp#904 root 0xca13c02e… anchored ON-CHAIN steem tx a2827a0cfc52… (saos.weave.core.v1) after 222h stale**; cp#905 root 0xb4dd4104… follow-up; hive leg honest-REFUSED (missing posting authority — known gap). Permanent criterion fix (anchor-age in takeover decision) proposed in a31-diagnosis-v2.
+- **Z-18e outbox (DONE)**: daily-claim.mjs + daily-claim.yml in Domain (3ed33a5 — posting-only claim compounding, home doctrine steem@0.7.11/probe.cjs/RC-gate/45s-race, cron 02:37) · playbook-benchmarks · reputation-ledger-v0 (snapshot-0) · status-audit · a31-diagnosis-v2 → broadcasts below.
+- Honest residuals: hive anchor leg needs hive posting authority (operator C-6 gate) · ETH L1 runway=2 anchors (standby) · archive-read REFUSED in weave (private tokens) — all recorded, nothing faked.
+
 - **Z-18a audit+continuity**: on-chain re-verify of first anchors (OP+BASE status=0x1) + full read-only audit + persistence doctrine (.fleet/) — DONE pre-claim (evidence: fleet-outbox, this broadcast).
 - **Z-18b today's signature**: vault repo-only reopen (Task-12 doctrine) → sovereign EOA key → anchor-execute OPTIMISM (+BASE) for dayRoot 0x3f668537… (2026-09-29) → receipts to public book → keyless verify. IN PROGRESS.
 - **Z-18c autonomy-forever**: set EVM_ANCHOR_PK Domain secret if PAT permits; else operator Path-A. PENDING.
