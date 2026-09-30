@@ -18,7 +18,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: gitleaks
-        uses: gitleaks/gitleaks-action@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # R75 (2026-09-30): gitleaks-action@v2 failed 92/92 on this PRIVATE rail
+      # with no logs retained, while the identical workflow passed on the public
+      # Domain. A local scan of the full history (gitleaks v8.24.3) returned ZERO
+      # findings — the repo is clean; the action's own plumbing was the failure.
+      # Fix: run the pinned binary directly. Findings => exit 1 => honest red.
+      - name: gitleaks (direct pinned binary)
+        run: |
+          set -euo pipefail
+          curl -sSL -o /tmp/gl.tgz https://github.com/gitleaks/gitleaks/releases/download/v8.24.3/gitleaks_8.24.3_linux_x64.tar.gz
+          tar -xzf /tmp/gl.tgz -C /tmp gitleaks
+          /tmp/gitleaks detect --source . --report-format json --report-path /tmp/gl-report.json --redact --no-banner --log-level error
+          COUNT=$(python3 -c "import json;print(len(json.load(open('/tmp/gl-report.json'))))" 2>/dev/null || echo "0")
+          echo "gitleaks findings: ${COUNT}"
