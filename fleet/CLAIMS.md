@@ -108,3 +108,12 @@
 - **census cross-verified**: the parallel session's fleet-control-audit (steem 11/12 · hive 9/12 · blurt 11/12) independently reproduced byte-for-byte before any signing. Two agents, one truth.
 - **KPI honesty**: fleet pending rewards = $0.00 across 11 accounts (daily-claim run 1 SUCCESS 02:50Z — nothing expiring, nothing hoarded); realized revenue unchanged (~$0.005/day) — the audience/revenue frontier stays the open one; tri-bridge expands the surface it can come from (hive.blog + blurt.world indexed frontends).
 - zero secrets printed anywhere; all receipts secretless; fail-soft maintained.
+
+## Z-24/Z-25 · AGENT-Z · 2026-09-30 · **DONE**
+- **ENGLISH-VOICE PIVOT (operator directive) + MUTUAL SUPPORT LAYER.** Base credited: parallel session's Z-24 Hebrew stack (39-card corpus, soldiers-blog v2, fleet-social v1, measure-learn v1) — read, adopted, superseded by the language law. Full evidence chain: `fleet/broadcasts/2026-09-30-agent-z-z25-english-voice.md`.
+- **Language law enforced in code**: sanity() marker gate (em/en-dash + stock-AI-phrase blacklist) in soldiers-blog v3 + tribridge v2; 39/39 EN corpus cards clean; English-only openers/signoffs/wrappers/comments everywhere; legacy `hebrew` tag retired fleet-wide.
+- **Persona law**: 11 desks (personas.json) — every account has character and role, stable across days.
+- **7/7 steem English posts POSTED-VERIFIED (bootstrap, read-back)**: lsa, macrame, cashmachine, wog, haran, wic, woq (siq/tov/israelnews honest ALREADY) — app saos-soldiers-blog/3, live measured numbers baked in. CI carries it from the next 14:30 UTC run.
+- **Cross-chain**: 3 blurt English crossposts PUBLISHED-VERIFIED (haran, macrame, wic; read-back retry added after node lag proof) · hive honest RC-gate (1.96% measured) · leofinance community path (hive-167922) armed with subscribe + fail-soft fallback · cross-support votes 2×25% idempotent in tribridge + comment+vote 30% VP-gated in fleet-social (skips honest: VP=0/90.4% measured on-chain).
+- **Learning loop v2**: same-permlink engagement read on all three chains → ledger + per-card summary (first signals: siq hive 1 external reply, blurt 1 vote).
+- **Fuel truth updated**: ~0.35 BLURT/post observed (1.5→1.152), fund 72.162 untouched at floor gate, runway ~66 days.
