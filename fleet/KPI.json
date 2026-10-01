@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-09-30T14:52:37.150Z",
+ "updatedAt": "2026-10-01T19:45:29.388Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -10,22 +10,22 @@
   "targetPerDay": 0,
   "proven": false,
   "consecutiveGreenDays": 1,
-  "asOfDay": "2026-09-30",
+  "asOfDay": "2026-10-01",
   "noteHe": "L0 = הוכחת-מנוע: צי מלא + רשת בריאה + grid טרי + CI ירוק, 7 ימים רצופים (MISSION-1000 §1). הרצף נספר מקבצי KPI-history — יום חסר שובר את הרצף בכנות."
  },
  "revenuePerDayReal": {
-  "usd": 0.0052,
+  "usd": 0.0041,
   "method": "mission book usdPerDay7dAvg (/api/mission → sovereign/income/daily-*.json) — הכנסה ממומשת בלבד (תיקון D-012 · r132)",
   "breakdown": {
-   "missionBookUsdPerDay": 0.00515,
-   "fuelEngineUsdPerDay": 4.32,
-   "gridExternalFillsLifetimeUsd": 0.055606,
+   "missionBookUsdPerDay": 0.00412,
+   "fuelEngineUsdPerDay": 4.29,
+   "gridExternalFillsLifetimeUsd": 0.044727,
    "note": "תיקון-D-012 (r132): fuelEngine (פאוורדאון SP→נוזלי) אינו נספר עוד ב-revenuePerDayUsd — הוא שריפת-הון, לא הכנסה; נמדד ומוצג בנפרד ב-fuelBurn. Z-9 תיקון-שיטה מול יום-0: מילויי-גריד הם מצטבר-חיים ולא קצב."
   },
   "fuelBurn": {
-   "usdPerDay": 4.32,
-   "weeklySp": 475.7635534560491,
-   "remainingSp": 1903.054213822957,
+   "usdPerDay": 4.29,
+   "weeklySp": 475.8111307727531,
+   "remainingSp": 1903.2445230897729,
    "remainingWeeks": 4,
    "nextPayout": "2026-10-03T02:01:27",
    "lawHe": "המרת SP לנוזלי — הון שנשרף לתדלוק, לא הכנסה (D-012 · r132). נגמרת עם ה-SP; נמדדת כ-capitalInflow בספר-ההכנסה."
@@ -56,12 +56,12 @@
   },
   "chainRuns24h": 7,
   "chainOk24h": 7,
-  "gridConsumedCount": null,
-  "gridBookPublishedAt": null,
+  "gridConsumedCount": 0,
+  "gridBookPublishedAt": "2026-10-01T14:38:17.691Z",
   "lastCi": {
-   "id": 36730592582,
+   "id": 36915266647,
    "conclusion": "success",
-   "createdAt": "2026-09-30T14:38:05Z"
+   "createdAt": "2026-10-01T19:34:21Z"
   }
  },
  "agents": {
@@ -112,11 +112,11 @@
   "note": "הריפו הפרטי אזל ממכסת Actions — השער רץ כ-twin יומי ב-Domain"
  },
  "dailyRecord": {
-  "day": "2026-09-30",
+  "day": "2026-10-01",
   "green": true,
   "streak": 1,
-  "historyPath": "fleet/KPI-history/2026-09-30.json",
-  "measuredAt": "2026-09-30T14:52:35.052Z"
+  "historyPath": "fleet/KPI-history/2026-10-01.json",
+  "measuredAt": "2026-10-01T19:45:27.149Z"
  },
  "distribution": {
   "channel": "Steem @headcorner (posting-only)",
