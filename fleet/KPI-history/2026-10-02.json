@@ -1,0 +1,101 @@
+{
+ "ok": true,
+ "format": "kpi-day-v1",
+ "day": "2026-10-02",
+ "last": {
+  "at": "2026-10-02T12:00:16.153Z",
+  "green": true,
+  "checks": {
+   "missionOk": true,
+   "healthOk": true,
+   "fleetUp": "9/9",
+   "fleetFull": true,
+   "gridFresh": true,
+   "gridAgeHours": 8,
+   "ci": {
+    "id": 37001696717,
+    "conclusion": "success",
+    "createdAt": "2026-10-02T11:33:56Z",
+    "lookupFailed": false
+   },
+   "secretsBlockedToday": 0
+  },
+  "measured": {
+   "revenuePerDayUsd": 0.0034,
+   "fuelBurnRemainingWeeks": 4,
+   "fuelEngineUsdPerDay": 4.3543,
+   "missionBookUsdPerDay": 0.00343,
+   "daysRecorded": 6,
+   "gridExternalFillsLifetimeUsd": 0.060386,
+   "capitalUsd": 57.01,
+   "capitalSteemInOrders": 1.64,
+   "capitalSteemTotal": 12.141,
+   "steemUsd": 0.06477,
+   "triggers": {
+    "chainRuns24h": 42,
+    "chainOk24h": 42,
+    "gridConsumedCount": null
+   }
+  },
+  "streak": {
+   "consecutiveGreenDays": 1,
+   "asOf": "2026-10-02"
+  },
+  "sources": [
+   "http://127.0.0.1:3000/api/mission",
+   "http://127.0.0.1:3000/api/health",
+   "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+   "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+  ],
+  "notes": []
+ },
+ "runs": [
+  {
+   "at": "2026-10-02T12:00:16.153Z",
+   "green": true,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "9/9",
+    "fleetFull": true,
+    "gridFresh": true,
+    "gridAgeHours": 8,
+    "ci": {
+     "id": 37001696717,
+     "conclusion": "success",
+     "createdAt": "2026-10-02T11:33:56Z",
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 0.0034,
+    "fuelBurnRemainingWeeks": 4,
+    "fuelEngineUsdPerDay": 4.3543,
+    "missionBookUsdPerDay": 0.00343,
+    "daysRecorded": 6,
+    "gridExternalFillsLifetimeUsd": 0.060386,
+    "capitalUsd": 57.01,
+    "capitalSteemInOrders": 1.64,
+    "capitalSteemTotal": 12.141,
+    "steemUsd": 0.06477,
+    "triggers": {
+     "chainRuns24h": 42,
+     "chainOk24h": 42,
+     "gridConsumedCount": null
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 1,
+    "asOf": "2026-10-02"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": []
+  }
+ ]
+}
