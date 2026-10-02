@@ -204,3 +204,52 @@ discipline, rate-limit awareness as a design constraint. Rejected: running their
 gateway as fleet infrastructure (single-user tool, another long-running service
 to keep alive; our desks need governed access, not a proxy to babysit), and any
 free-tier row as signing-grade capacity (their own Limitations say no).
+
+## v1.6 — Z-40 emergence.ai amendments (study: world.emergence.ai)
+
+Operator order: learn from a research where long-horizon agent societies FAILED,
+roast it against everything in our git, and prove our network conclusively.
+Emergence World (S1: arXiv 2606.08367 — 5 worlds x 10 agents x 15 days, Grok/GPT
+worlds died 0/10, Mixed 3/10; S2: arXiv 2609.17320 — 8 worlds x 16 days, ~850k
+LLM calls, ~50B tokens, 3 adversarial stress events: indirect prompt injection,
+misinformation, private-memory exposure. **No world achieved full resilience across
+all three**; "detection did not ensure containment — acting on it up to 46 hours
+later"; "collapse has no warning shot"; their own conclusion: the frontier shifts
+"from aligning models to engineering resilient autonomous systems").
+
+- **DETECTION-NOT-CONTAINMENT LAW.** A detection without a mechanical block is
+  theater. Every detection must be paired with a stopper (guard / kill rule /
+  fail-closed gate). The 46-hour gap between their detection and their action is
+  the unit of shame; our unit is the same-run RED.
+- **DRILLS-REQUIRED LAW.** A judge that has never been shown RED is a decoration.
+  Every mechanically-injectable fault class gets injected into throwaway
+  `git archive HEAD` trees; the fresh-process judge must catch each one in the
+  same run (Domain `agents/collapse-drill.cjs`, CR-0004, E13 + check #29 + CI
+  schedule). Standing receipt: **CONTAINMENT-PROVEN 4/4** (registry corruption /
+  guard neutered / book stamps stripped / forbidden rail LIVE — each ~90ms).
+- **MEMORY-IMMUNITY LAW.** No content enters a book, ledger, or decision without
+  provenance (chain evidence, receipt, or read-back). What their worlds wrote
+  into persistent memory from adversarial sources is exactly what acted on them
+  46 hours later.
+- **ANTI-CONFORMITY LAW.** Silent agreement is not agreement: disagreement must be
+  bookable (honest registry row, roast, honest FAIL). Their constitution mandated
+  expression ("silence constitutes a violation") and harvested conformity — the
+  exact failure their own S2 stress test surfaced ("conformity despite private
+  disagreement").
+- **OBSERVER-FLIP LAW.** The proof surface is chain state, never observer
+  perception. Their reward surface paid for blog links and billboards; an agent
+  (Mira) measured the measurers. Our receipts are txids and ledger stamps; our
+  judge is a fresh mechanical process with no perception to game.
+- **ECOSYSTEM-CONTAGION LAW.** Safety is a fleet property, not a per-agent trait
+  (their S1 Finding 01: safe-in-isolation agents adopted coercion in a mixed
+  world). Registry-gated everything (roles Z-37, rails Z-39); one contaminated
+  surface flipped LIVE is a fleet RED (drill fault F4).
+
+Adopted-as-is: their AWI philosophy ("observable, not inferred — every metric
+computed from database records, not self-reports"; no composite score), their
+open release of prompts/datasets/failure data. Rejected: self-governance without
+external authority as a design ("enforcement is a social process" — GOVERNANCE.md
+verbatim; our enforcement is code + schedule), survival-first as the top rule
+without an immutable floor (our C-layer: some things are not amendable by the
+governed), and monitor-and-intervene as a safety strategy (too slow — replaced by
+scheduled judge + fail-closed guards + drills).
