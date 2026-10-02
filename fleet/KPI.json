@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-10-02T12:00:17.984Z",
+ "updatedAt": "2026-10-02T12:00:23.731Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -59,9 +59,9 @@
   "gridConsumedCount": null,
   "gridBookPublishedAt": null,
   "lastCi": {
-   "id": 37001696717,
-   "conclusion": "success",
-   "createdAt": "2026-10-02T11:33:56Z"
+   "id": null,
+   "conclusion": "no-run-found",
+   "createdAt": null
   }
  },
  "agents": {
@@ -116,7 +116,7 @@
   "green": true,
   "streak": 1,
   "historyPath": "fleet/KPI-history/2026-10-02.json",
-  "measuredAt": "2026-10-02T12:00:16.153Z"
+  "measuredAt": "2026-10-02T12:00:21.864Z"
  },
  "distribution": {
   "channel": "Steem @headcorner (posting-only)",
