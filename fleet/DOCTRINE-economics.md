@@ -167,3 +167,40 @@ Adopted-as-is: whitelist-first, default-allow, context detection, scan mode for 
 bounded failure policy. Rejected: agent-specific hook installation (our runtime is
 CI + orchestrator sessions, not Claude-Code-class CLIs) — the fleet-native port
 carries the same semantics without a Rust dependency.
+
+## v1.5 — Z-39 freellmapi amendments (study: tashfeenahmed/freellmapi)
+
+Operator order: open items + review ours and the other agents' work + examine this
+repo as a sovereignty/autonomy optimization. freellmapi (server v0.2.1) is a
+self-hosted OpenAI-compatible gateway pooling ~34 free LLM tiers behind one /v1:
+provider catalog as data, a Thompson-sampling router with rate-limit ledger,
+cooldowns and UTC-midnight resets, encrypted keys, and an honest Limitations
+section ("intelligence degrades as the day progresses", "no SLA, by definition").
+The fleet adopts the GOVERNANCE of such rails, not the dependency:
+
+- **COGNITIVE-RAIL LAW.** Every third-party inference rail must be a row in
+  `Domain/agents/inference-providers.csv` with a cited ToS verdict (their May-2026
+  review, row-by-row). No row, no rail. Cohere (ToS §14 forbids personal use) is
+  status NEVER — the catalog itself refuses to enable it, pinned by eval E12 and
+  watched by harness-audit check #28.
+- **KEYLESS-PROBE LAW.** Fleet desks touch rails only through anonymous catalog
+  reads (AI Horde's documented sentinel, OVH's documented 2-req/min anon mode,
+  pollinations' keyless catalog). Keyed rails are tier C — the operator holds
+  keys, in perpetuity, same gate as fuel pacing. Live receipts 2026-10-02: AI
+  Horde REACHABLE (30 models), OVH REACHABLE (24 models); zero fleet data left
+  the machine.
+- **DATA-CLASS LAW.** Never transmitted to any rail: keys, WIFs, books, private
+  state, memos with account detail. Permitted payload: public broadcast text only.
+- **ADVISORY-ONLY LAW.** LLM output from any untrusted rail is drafting/summary
+  input. It never substitutes verify-then-sign: no signing decision, order price,
+  or vote weight may derive from rail output without an independent verifiable
+  read. The chain speaks last — a free rail has no SLA and gets no authority.
+- **HONEST-DEGRADATION LAW.** Probes book REACHABLE / AUTH-WALL / DEGRADED /
+  UNREACHABLE; a DORMANT row stays DORMANT until the operator unlocks keys.
+  No simulated liveness, no hopeful green.
+
+Adopted-as-is: provider-catalog-as-data, ToS-verdict gating, honest-limitations
+discipline, rate-limit awareness as a design constraint. Rejected: running their
+gateway as fleet infrastructure (single-user tool, another long-running service
+to keep alive; our desks need governed access, not a proxy to babysit), and any
+free-tier row as signing-grade capacity (their own Limitations say no).
