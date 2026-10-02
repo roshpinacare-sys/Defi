@@ -64,3 +64,41 @@ The venture desk (`Domain/agents/venture-desk.cjs`) books these from live books 
 - **LIQUIDITY LADDER LAW.** Every held asset gets exactly one honest row: its rung (claim→liquid, debt-convert, HE book, dust-hold, escrow, exp-unresolved), its certainty class (DETERMINISTIC / CONDITIONAL / GATED), and its executor desk. Census and signature are separated: the census desk (`liquidity-desk.cjs`) is read-only and keyless; only the signing desks move value. Nothing held may be unlisted — an unlisted asset is a self-deception row.
 - **FUEL-PACING LAW.** The powerdown spigot is a governed variable, not a constant: while the earn side is unproven, the draw is paced to the minimum that keeps RC and operating capital whole. Pacing is a pure runway extension with zero risk. The option is computed by the census desk and executed only as an operator-gated active-key op.
 - **CENSUS→SIGN SEPARATION LAW.** Measurement never holds keys; signers never write books alone. A desk that both measures and signs must gate the signing behind explicit evidence (verify-then-sign + read-back), never behind convenience.
+
+## v1.2 — Z-35 harness-engineering amendments (study: walkinglabs/learn-harness-engineering)
+
+Operator order: "examine it well and let's use it properly." The study's core:
+**the model is smart, the harness makes it reliable** — five subsystems
+(instructions / state / verification / scope / lifecycle), loop engineering
+(generator/evaluator separation, four silent costs), graph engineering
+(Goodhart · blindness-upward · conflict; anchors; one lock).
+
+- **FIVE-SUBSYSTEM LAW.** Every fleet rail must show all five: instructions
+  (AGENTS/DOCTRINE/FLEET-NOTE + agent headers), state (books — the external
+  state primitive), verification (verify-then-sign + independent judge node),
+  scope (kill rules + numeric floors), lifecycle (receipts + recovery path).
+  A rail missing a subsystem is PROPOSED-tier, whatever it earns.
+- **JUDGE-SEPARATION LAW.** The producer never grades only its own output.
+  Verification that matters runs in a fresh context (agent-verify workflow,
+  harness-audit desk, chain read-back). A checker sharing the maker's process
+  is a checkpoint, not a judge.
+- **ANCHOR LAW.** Every metric loop pins to ground truth (chain reads, KPI
+  oracle, measured spot oracle) and names its source in the book. A loop
+  without an anchor is a resonance of mutual drift — kill it before it kills
+  the ledger. The part everyone skips is the part we keep.
+- **SILENT-COSTS WATCH.** Loops age through verification debt, comprehension
+  rot, cognitive surrender, token blowout. Countermeasures bound: new failure
+  modes become checks within one wave; notebooks rewritten per cycle; judge
+  nodes in fresh processes; LABOR TIERING keeps deterministic work in CI.
+- **HARNESS-AUDIT MANDATE.** `agents/harness-audit.cjs` runs on schedule as the
+  standing checker node (five subsystems + three structural failures + anchors,
+  keyless, fail-soft, books its findings). The audit is honest: a FAIL ships as
+  a FAIL until fixed — green-washing the audit is a doctrine breach.
+
+Adopted-as-is (we built them independently; the study confirms the shape):
+external state = books, verify-then-sign = maker/checker, kill rules = scope,
+RESUME-KIT/restore = lifecycle, DELEGATION-SELECTION = the one-lock doctrine
+("You are the GIL of your AI agents" — the operator holds the architecture lock).
+Rejected: none of substance. Noted: the course targets coding agents in repos;
+our verification floor is higher — "verification passes" means chain-truth, not
+unit tests alone.
