@@ -3,13 +3,13 @@
  "format": "kpi-day-v1",
  "day": "2026-10-02",
  "last": {
-  "at": "2026-10-02T12:03:22.684Z",
-  "green": true,
+  "at": "2026-10-02T12:04:22.407Z",
+  "green": false,
   "checks": {
    "missionOk": true,
    "healthOk": true,
-   "fleetUp": "9/9",
-   "fleetFull": true,
+   "fleetUp": "7/9",
+   "fleetFull": false,
    "gridFresh": true,
    "gridAgeHours": 8.1,
    "ci": {
@@ -27,10 +27,10 @@
    "missionBookUsdPerDay": 0.00343,
    "daysRecorded": 6,
    "gridExternalFillsLifetimeUsd": 0.060386,
-   "capitalUsd": 57.02,
-   "capitalSteemInOrders": 0.64,
+   "capitalUsd": 52.08,
+   "capitalSteemInOrders": 5.805,
    "capitalSteemTotal": 12.141,
-   "steemUsd": 0.06473,
+   "steemUsd": 0.06472,
    "triggers": {
     "chainRuns24h": 42,
     "chainOk24h": 42,
@@ -38,7 +38,7 @@
    }
   },
   "streak": {
-   "consecutiveGreenDays": 1,
+   "consecutiveGreenDays": 0,
    "asOf": "2026-10-02"
   },
   "sources": [
@@ -50,194 +50,6 @@
   "notes": []
  },
  "runs": [
-  {
-   "at": "2026-10-02T12:00:22.106Z",
-   "green": true,
-   "checks": {
-    "missionOk": true,
-    "healthOk": true,
-    "fleetUp": "9/9",
-    "fleetFull": true,
-    "gridFresh": true,
-    "gridAgeHours": 8,
-    "ci": {
-     "id": null,
-     "conclusion": "no-run-found",
-     "createdAt": null,
-     "lookupFailed": false
-    },
-    "secretsBlockedToday": 0
-   },
-   "measured": {
-    "revenuePerDayUsd": 0.0034,
-    "fuelBurnRemainingWeeks": 4,
-    "fuelEngineUsdPerDay": 4.3543,
-    "missionBookUsdPerDay": 0.00343,
-    "daysRecorded": 6,
-    "gridExternalFillsLifetimeUsd": 0.060386,
-    "capitalUsd": 57.01,
-    "capitalSteemInOrders": 1.64,
-    "capitalSteemTotal": 12.141,
-    "steemUsd": 0.06477,
-    "triggers": {
-     "chainRuns24h": 42,
-     "chainOk24h": 42,
-     "gridConsumedCount": null
-    }
-   },
-   "streak": {
-    "consecutiveGreenDays": 1,
-    "asOf": "2026-10-02"
-   },
-   "sources": [
-    "http://127.0.0.1:3000/api/mission",
-    "http://127.0.0.1:3000/api/health",
-    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
-    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
-   ],
-   "notes": []
-  },
-  {
-   "at": "2026-10-02T12:00:22.137Z",
-   "green": true,
-   "checks": {
-    "missionOk": true,
-    "healthOk": true,
-    "fleetUp": "9/9",
-    "fleetFull": true,
-    "gridFresh": true,
-    "gridAgeHours": 8,
-    "ci": {
-     "id": null,
-     "conclusion": "no-run-found",
-     "createdAt": null,
-     "lookupFailed": false
-    },
-    "secretsBlockedToday": 0
-   },
-   "measured": {
-    "revenuePerDayUsd": 0.0034,
-    "fuelBurnRemainingWeeks": 4,
-    "fuelEngineUsdPerDay": 4.3543,
-    "missionBookUsdPerDay": 0.00343,
-    "daysRecorded": 6,
-    "gridExternalFillsLifetimeUsd": 0.060386,
-    "capitalUsd": 57.01,
-    "capitalSteemInOrders": 1.64,
-    "capitalSteemTotal": 12.141,
-    "steemUsd": 0.06477,
-    "triggers": {
-     "chainRuns24h": 42,
-     "chainOk24h": 42,
-     "gridConsumedCount": null
-    }
-   },
-   "streak": {
-    "consecutiveGreenDays": 1,
-    "asOf": "2026-10-02"
-   },
-   "sources": [
-    "http://127.0.0.1:3000/api/mission",
-    "http://127.0.0.1:3000/api/health",
-    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
-    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
-   ],
-   "notes": []
-  },
-  {
-   "at": "2026-10-02T12:00:22.197Z",
-   "green": true,
-   "checks": {
-    "missionOk": true,
-    "healthOk": true,
-    "fleetUp": "9/9",
-    "fleetFull": true,
-    "gridFresh": true,
-    "gridAgeHours": 8,
-    "ci": {
-     "id": null,
-     "conclusion": "no-run-found",
-     "createdAt": null,
-     "lookupFailed": false
-    },
-    "secretsBlockedToday": 0
-   },
-   "measured": {
-    "revenuePerDayUsd": 0.0034,
-    "fuelBurnRemainingWeeks": 4,
-    "fuelEngineUsdPerDay": 4.3543,
-    "missionBookUsdPerDay": 0.00343,
-    "daysRecorded": 6,
-    "gridExternalFillsLifetimeUsd": 0.060386,
-    "capitalUsd": 57.01,
-    "capitalSteemInOrders": 1.64,
-    "capitalSteemTotal": 12.141,
-    "steemUsd": 0.06477,
-    "triggers": {
-     "chainRuns24h": 42,
-     "chainOk24h": 42,
-     "gridConsumedCount": null
-    }
-   },
-   "streak": {
-    "consecutiveGreenDays": 1,
-    "asOf": "2026-10-02"
-   },
-   "sources": [
-    "http://127.0.0.1:3000/api/mission",
-    "http://127.0.0.1:3000/api/health",
-    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
-    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
-   ],
-   "notes": []
-  },
-  {
-   "at": "2026-10-02T12:00:26.740Z",
-   "green": true,
-   "checks": {
-    "missionOk": true,
-    "healthOk": true,
-    "fleetUp": "9/9",
-    "fleetFull": true,
-    "gridFresh": true,
-    "gridAgeHours": 8,
-    "ci": {
-     "id": null,
-     "conclusion": "no-run-found",
-     "createdAt": null,
-     "lookupFailed": false
-    },
-    "secretsBlockedToday": 0
-   },
-   "measured": {
-    "revenuePerDayUsd": 0.0034,
-    "fuelBurnRemainingWeeks": 4,
-    "fuelEngineUsdPerDay": 4.3543,
-    "missionBookUsdPerDay": 0.00343,
-    "daysRecorded": 6,
-    "gridExternalFillsLifetimeUsd": 0.060386,
-    "capitalUsd": 57.01,
-    "capitalSteemInOrders": 1.64,
-    "capitalSteemTotal": 12.141,
-    "steemUsd": 0.06477,
-    "triggers": {
-     "chainRuns24h": 42,
-     "chainOk24h": 42,
-     "gridConsumedCount": null
-    }
-   },
-   "streak": {
-    "consecutiveGreenDays": 1,
-    "asOf": "2026-10-02"
-   },
-   "sources": [
-    "http://127.0.0.1:3000/api/mission",
-    "http://127.0.0.1:3000/api/health",
-    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
-    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
-   ],
-   "notes": []
-  },
   {
    "at": "2026-10-02T12:01:22.327Z",
    "green": true,
@@ -604,6 +416,194 @@
    },
    "streak": {
     "consecutiveGreenDays": 1,
+    "asOf": "2026-10-02"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": []
+  },
+  {
+   "at": "2026-10-02T12:03:22.695Z",
+   "green": true,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "9/9",
+    "fleetFull": true,
+    "gridFresh": true,
+    "gridAgeHours": 8.1,
+    "ci": {
+     "id": null,
+     "conclusion": "no-run-found",
+     "createdAt": null,
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 0.0034,
+    "fuelBurnRemainingWeeks": 4,
+    "fuelEngineUsdPerDay": 4.3543,
+    "missionBookUsdPerDay": 0.00343,
+    "daysRecorded": 6,
+    "gridExternalFillsLifetimeUsd": 0.060386,
+    "capitalUsd": 57.02,
+    "capitalSteemInOrders": 0.64,
+    "capitalSteemTotal": 12.141,
+    "steemUsd": 0.06473,
+    "triggers": {
+     "chainRuns24h": 42,
+     "chainOk24h": 42,
+     "gridConsumedCount": null
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 1,
+    "asOf": "2026-10-02"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": []
+  },
+  {
+   "at": "2026-10-02T12:03:22.700Z",
+   "green": true,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "9/9",
+    "fleetFull": true,
+    "gridFresh": true,
+    "gridAgeHours": 8.1,
+    "ci": {
+     "id": null,
+     "conclusion": "no-run-found",
+     "createdAt": null,
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 0.0034,
+    "fuelBurnRemainingWeeks": 4,
+    "fuelEngineUsdPerDay": 4.3543,
+    "missionBookUsdPerDay": 0.00343,
+    "daysRecorded": 6,
+    "gridExternalFillsLifetimeUsd": 0.060386,
+    "capitalUsd": 57.02,
+    "capitalSteemInOrders": 0.64,
+    "capitalSteemTotal": 12.141,
+    "steemUsd": 0.06473,
+    "triggers": {
+     "chainRuns24h": 42,
+     "chainOk24h": 42,
+     "gridConsumedCount": null
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 1,
+    "asOf": "2026-10-02"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": []
+  },
+  {
+   "at": "2026-10-02T12:04:22.399Z",
+   "green": false,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "7/9",
+    "fleetFull": false,
+    "gridFresh": true,
+    "gridAgeHours": 8.1,
+    "ci": {
+     "id": null,
+     "conclusion": "no-run-found",
+     "createdAt": null,
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 0.0034,
+    "fuelBurnRemainingWeeks": 4,
+    "fuelEngineUsdPerDay": 4.3543,
+    "missionBookUsdPerDay": 0.00343,
+    "daysRecorded": 6,
+    "gridExternalFillsLifetimeUsd": 0.060386,
+    "capitalUsd": 52.08,
+    "capitalSteemInOrders": 5.805,
+    "capitalSteemTotal": 12.141,
+    "steemUsd": 0.06472,
+    "triggers": {
+     "chainRuns24h": 42,
+     "chainOk24h": 42,
+     "gridConsumedCount": null
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 0,
+    "asOf": "2026-10-02"
+   },
+   "sources": [
+    "http://127.0.0.1:3000/api/mission",
+    "http://127.0.0.1:3000/api/health",
+    "https://raw.githubusercontent.com/roshpinacare-sys/Console/main/dex/grid.json",
+    "https://api.github.com/repos/roshpinacare-sys/Console/actions/runs"
+   ],
+   "notes": []
+  },
+  {
+   "at": "2026-10-02T12:04:22.407Z",
+   "green": false,
+   "checks": {
+    "missionOk": true,
+    "healthOk": true,
+    "fleetUp": "7/9",
+    "fleetFull": false,
+    "gridFresh": true,
+    "gridAgeHours": 8.1,
+    "ci": {
+     "id": null,
+     "conclusion": "no-run-found",
+     "createdAt": null,
+     "lookupFailed": false
+    },
+    "secretsBlockedToday": 0
+   },
+   "measured": {
+    "revenuePerDayUsd": 0.0034,
+    "fuelBurnRemainingWeeks": 4,
+    "fuelEngineUsdPerDay": 4.3543,
+    "missionBookUsdPerDay": 0.00343,
+    "daysRecorded": 6,
+    "gridExternalFillsLifetimeUsd": 0.060386,
+    "capitalUsd": 52.08,
+    "capitalSteemInOrders": 5.805,
+    "capitalSteemTotal": 12.141,
+    "steemUsd": 0.06472,
+    "triggers": {
+     "chainRuns24h": 42,
+     "chainOk24h": 42,
+     "gridConsumedCount": null
+    }
+   },
+   "streak": {
+    "consecutiveGreenDays": 0,
     "asOf": "2026-10-02"
    },
    "sources": [
