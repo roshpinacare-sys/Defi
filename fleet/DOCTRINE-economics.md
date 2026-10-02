@@ -138,3 +138,32 @@ A/B/C), change-request versioning, single-source registry consumed by all surfac
 Rejected: self-hosted prompt marketplace (we are not a library — we are an
 economy); persona prompts as content (our charters bind to signing scope and
 kill rules, not conversational style).
+
+## v1.4 — Z-38 destructive-command-guard amendments (study: Dicklesworthstone/destructive_command_guard)
+
+Operator order: same sovereignty mandate, new study. dcg is a Rust hook that blocks
+destructive commands BEFORE execution for AI coding agents. The fleet adopts its
+mechanism as the enforcement layer under Z-37's written override protocol:
+
+- **MECHANICAL-OVERRIDE LAW.** A law that lives only in prose is advice. The refusal
+  of a doctrine-contradicting action is evaluated by CODE before execution
+  (`Domain/agents/command-guard.cjs`), with zero judgment latency — pre-execution,
+  not post-mortem. Cross-check receipt: their binary (dcg v0.15.2) scanned our repo;
+  12 findings, all triaged honestly (see below); our guard reproduces the triage.
+- **WHITELIST-FIRST LAW.** Safe patterns are evaluated before destructive ones.
+  The fleet's own rebase law (`git pull --rebase`) is pinned by eval E7 to NEVER be
+  blocked. A guard that blocks legit ops is a worse failure than no guard.
+- **DEFAULT-ALLOW LAW (fail-safe).** Unrecognized commands pass; only known-dangerous
+  patterns are gated. The guard never breaks a run (fail-soft, exit 0, decisions
+  booked in `command-guard.json`, stamped per BOOKS-STAMP law).
+- **CONTEXT-TRIAGE LAW.** `grep "rm -rf" file` is DATA (allow); `rm -rf agents/` is
+  EXECUTION (deny); the mirror-bots' `git reset --hard origin/main` inside a CI
+  push-retry loop is a REGENERABLE sync of a throwaway checkout (allow-with-reason,
+  booked — never silent). The dcg cross-check's 12 findings were all this class:
+  zero real fixes needed, but the triage discipline is now permanent machinery
+  (checks #27, evals E7-E9).
+
+Adopted-as-is: whitelist-first, default-allow, context detection, scan mode for CI,
+bounded failure policy. Rejected: agent-specific hook installation (our runtime is
+CI + orchestrator sessions, not Claude-Code-class CLIs) — the fleet-native port
+carries the same semantics without a Rust dependency.

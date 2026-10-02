@@ -271,3 +271,22 @@
 - **fuel pacing + key rotation** — tier C (operator-locked), now formally codified as SOVEREIGNTY LADDER tier C; proposals may be booked, releases only by operator.
 
 **Commits:** Domain (sovereignty wave: registry + law + CR + audit v1.2.0 + graph + AGENTS.md + CI) · Defi (doctrine v1.3 + this receipt) · zero secrets in any repo.
+
+## Z-38 — mechanical-override wave receipts (study: Dicklesworthstone/destructive_command_guard, operator order: open items + agent sovereignty/autonomy via dcg)
+
+**Study adoption (mechanism, not cosmetics):**
+- Deep-read destructive_command_guard (README, SKILL.md, config schema, install path). Core: a pre-execution hook that DENIES destructive commands (`git reset --hard`, `push --force`, `rm -rf`, `DROP TABLE`…) for AI agents — whitelist-first, default-allow, data-vs-execution context detection.
+- **Cross-check receipt (their tool, our repo)**: installed their released binary (dcg v0.15.2, checksum-verified installer), ran `dcg scan` over Domain — 153 files considered, 12 findings. Triage: 11 = the mirror-bots' push-retry sync idiom (`git checkout -- .` / `git reset --hard origin/main` after failed push — throwaway CI checkout, regenerable content, zero real fixes); 1 = heredoc process-substitution in twin-audit.yml (curl into a file, non-destructive). Verdict: no dangerous drift in our CI; the finding value is the triage discipline itself.
+- **Fleet-native port** `Domain/agents/command-guard.cjs` v1.0.0 (same semantics, zero Rust dependency): modes explain/hook/scan; 10 DENY rule families; whitelist-first SAFE rules (our rebase law pinned); fleet-sync-idiom = allow-with-reason booked; decisions stamped in `agents/command-guard.json`.
+- **Evals E7-E9** (suite now 9/9 PASS): E7 destructive→DENY + rebase-law→ALLOW; E8 data-context ALLOW + session-context sync-idiom DENY; E9 real CI scan 0 DENY / ≥10 booked / ledger stamped.
+- **harness-audit v1.3.0** check #27 (sovereignty: gate live + ledger stamped + guard evals green). Judge run: **30 PASS / 0 WARN / 0 FAIL**. CI: recruit.yml runs the scan and persists the ledger.
+- **CR-0002 dogfooded**: opened (opened_at) → implemented → judged by harness-audit v1.3.0 fresh process → PASS in-file. Second mechanical adoption through the CR door.
+- Docs: sovereignty.md v1.0.1 (§4.1 the mechanical layer, Hebrew), AGENTS.md mechanical-override rule, registry row 48 (command-guard, verify-only), fleet-graph register row. Sibling convergence: their interim Task-20 registry retired SUPERSEDED-BY our Z-37 registry — zero duplicate governance.
+- Rebase race: two rounds handled per law (books → freshest census; artifacts preserved); judge honestly red DURING the conflict (check #27 saw the missing ledger) and green after re-stamp — the audit catches real state, not vibes.
+
+**Open items re-polled (2026-10-02T22:43:02Z, read-only, keyless):**
+- hiveswap 0.310 HIVE credit: SWAP.HIVE 0.03020690 — credit NOT landed; row stays open on owner desk's book.
+- BEE 1.853 EXP-UNRESOLVED: balance 0, no open orders; anomaly stands; sell-book frontier FRESH (top ask 11.91474340 @ 0.60000000).
+- V1 first accrual: T-7d (~2026-10-09). Fuel pacing + key rotation: tier C operator-locked.
+
+**Commits:** Domain 098ec460 (mechanical-override wave) · Defi (doctrine v1.4 + this receipt) · zero secrets in any repo.
