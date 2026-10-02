@@ -56,3 +56,11 @@ The venture desk (`Domain/agents/venture-desk.cjs`) books these from live books 
 - **Estimation.** Oracle data or it does not exist. (They violated this nowhere on the cost side; we extend the ban to the earn side — on-chain deltas only.)
 - **Islands.** Our canon is shared git across runtimes with one-directional keyless mirrors and tri-bridge publication; reputation that does not travel is not reputation.
 - **Cute anxiety management.** We will not ship watch-ability as the product. Proof, not vibes: every number traceable to a trx id, a block, or a measured delta.
+
+---
+
+## v1.1 — Z-32 bridge amendments (the gap, attacked from assets we hold)
+
+- **LIQUIDITY LADDER LAW.** Every held asset gets exactly one honest row: its rung (claim→liquid, debt-convert, HE book, dust-hold, escrow, exp-unresolved), its certainty class (DETERMINISTIC / CONDITIONAL / GATED), and its executor desk. Census and signature are separated: the census desk (`liquidity-desk.cjs`) is read-only and keyless; only the signing desks move value. Nothing held may be unlisted — an unlisted asset is a self-deception row.
+- **FUEL-PACING LAW.** The powerdown spigot is a governed variable, not a constant: while the earn side is unproven, the draw is paced to the minimum that keeps RC and operating capital whole. Pacing is a pure runway extension with zero risk. The option is computed by the census desk and executed only as an operator-gated active-key op.
+- **CENSUS→SIGN SEPARATION LAW.** Measurement never holds keys; signers never write books alone. A desk that both measures and signs must gate the signing behind explicit evidence (verify-then-sign + read-back), never behind convenience.
