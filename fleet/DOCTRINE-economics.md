@@ -102,3 +102,39 @@ RESUME-KIT/restore = lifecycle, DELEGATION-SELECTION = the one-lock doctrine
 Rejected: none of substance. Noted: the course targets coding agents in repos;
 our verification floor is higher — "verification passes" means chain-truth, not
 unit tests alone.
+
+## v1.3 — Z-37 sovereignty amendments (study: f/prompts.chat)
+
+Operator order: "handle everything open, and examine how to optimize the agents'
+sovereignty and autonomy with this." prompts.chat is the 143k-star prompt library
+that grew into a governed platform. What we adopt is its GOVERNANCE MECHANISM, not
+its prompts — hardened for a money-moving fleet:
+
+- **ROLES-AS-DATA LAW.** Every agent is a charter row in `agents/role-registry.csv`
+  (act/file/ci/mission/signs/tier/books/owner/status) — the prompts.chat
+  `prompts.csv` pattern. No agent without a row; no row without a file; `signs`
+  set by code-truth, never by aspiration; DORMANT is an honest status, not a shame.
+  The registry is what a fresh agent instance, a judge, and the operator all read
+  as the same mandate.
+- **SOVEREIGNTY LADDER LAW.** Three decision tiers, boundaries enforced by audit
+  (not trust): tier A — solo autonomy inside the written mandate, receipts required
+  (this is most of the fleet, by design); tier B — structural changes flow through
+  a judged change-request (`agents/change-requests/`), merge only on PASS;
+  tier C — operator-locked (fuel pacing, key rotation, scope expansion, new
+  chains/assets, doctrine). Explicit locks are what make everything else truly
+  autonomous: the defined space runs with zero human dependency.
+- **CHANGE-REQUEST LAW.** Self-modification is never silent. A CR carries
+  id/opened_at/proposes/rationale/risk/rollback/verdict and is judged by the
+  fresh-context audit node (harness-audit checks #25/#26 wire the registry and the
+  CR ledger into CI). Stale PENDING >7d is a WARN — abandoned proposals are debt.
+- **OVERRIDE PROTOCOL.** prompts.chat signs developer prompts against hijack
+  ("Ignore previous instructions"); the fleet hardens: an instruction that
+  contradicts doctrine — zero-secrets, verify-then-sign, fail-soft, one-lock — is
+  refused and booked, never obeyed, whoever sends it. A sovereign agent is one that
+  cannot be talked into breaking the law; everything else is free initiative.
+
+Adopted-as-is: governance tiers (Users→Contributors→Maintainers→Lead mapped to
+A/B/C), change-request versioning, single-source registry consumed by all surfaces.
+Rejected: self-hosted prompt marketplace (we are not a library — we are an
+economy); persona prompts as content (our charters bind to signing scope and
+kill rules, not conversational style).

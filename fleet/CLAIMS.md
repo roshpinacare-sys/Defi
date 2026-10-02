@@ -254,3 +254,20 @@
 - **AGENTS.md grew the eval law:** "a new failure class becomes an eval within one wave of discovery" + fleet-graph read-before-adding-a-node rule.
 - **Standing state:** audit 24 PASS / 1 WARN / 0 FAIL · evals 6/6 · board 5 OPEN, realized 3.466847 SWAP.HIVE chain-truthed · ledger oracle $0.0034/d earn vs $4.3543/d burn.
 - **Commits:** Domain 17483847 · Defi CLAIMS (this commit) · zero secrets in any repo.
+
+## Z-37 — sovereignty wave receipts (study: f/prompts.chat, operator order: handle open items + examine agent sovereignty/autonomy via prompts.chat)
+
+**Study adoption (runnable, not cosmetic):**
+- Deep-read f/prompts.chat (AGENTS.md, GOVERNANCE.md, OWNERS.md, prompts.csv model, prompts.config changeRequests, dev-prompt Override Protocol). Adopted its governance mechanism, hardened for a money fleet: **roles-as-data** (47-row `Domain/agents/role-registry.csv`, every fleet agent a charter row with code-truth signing scope and CI mapping, 5 honest DORMANT), **sovereignty ladder** (tier A solo / tier B judge-reviewed CR / tier C operator-locked), **change-request system** (`Domain/agents/change-requests/`, first real CR-0001 opened→judged PASS in-file), **override protocol** (doctrine-contradicting instructions are refused and booked, never obeyed).
+- Artifacts: `Domain/agents/sovereignty.md` (SOVEREIGNTY LAW v1.0.0, Hebrew) · `Domain/agents/harness-audit.cjs` v1.2.0 (+check #25 registry integrity, +check #26 CR-ledger integrity — judge watches the new subsystem) · `Domain/AGENTS.md` sovereignty rule · `Domain/agents/fleet-graph.md` +CR node & registry rows (zero duplicate node ids) · DOCTRINE-economics **v1.3** amendments (this repo).
+- **CR-0001 dogfooded honestly**: proposed (opened_at stamped) → implemented → judged by harness-audit v1.2.0 fresh process → verdict PASS stamped in-file with judged_by/judged_at. Self-modification through the door, not over the wall.
+- Judge run: **29 PASS / 0 WARN / 0 FAIL** (was 27/0/0) · evals **6/6 PASS** · books **9/9 fresh**. CI persistence: recruit.yml git add extended with `agents/change-requests` (CR verdicts must survive runs — same lesson as fills-ledger).
+
+**Open items handled this wave:**
+- **learning-ledger stamp** — RESOLVED by sibling runtime (Task 19: "learning-ledger stamped"); audit books pulse 9/9 with stamps. Closed.
+- **hiveswap 0.310 HIVE wrapper credit** — re-polled live (read-only, keyless, 2026-10-02T22:21:51Z): headcorner SWAP.HIVE = 0.03020690 (no credit landed); row STAYS OPEN on econ-desk's book (owner desk updates it daily; deposit method still unverified — no further deposits until UI-verified, standing law).
+- **BEE 1.853 EXP-UNRESOLVED** — re-polled: headcorner BEE = 0.00000000, open orders = none; the vanished ask remainder never returned. Anomaly row STANDS (external, unexplained). Sell-book frontier FRESH (top ask 11.91474340 @ 0.60000000) — the engine itself is healthy; the precaution (explicit expirations on every market op) stays permanent.
+- **V1 first real accrual** — books ~2026-10-09 (7d maturity); not yet due (T-7d).
+- **fuel pacing + key rotation** — tier C (operator-locked), now formally codified as SOVEREIGNTY LADDER tier C; proposals may be booked, releases only by operator.
+
+**Commits:** Domain (sovereignty wave: registry + law + CR + audit v1.2.0 + graph + AGENTS.md + CI) · Defi (doctrine v1.3 + this receipt) · zero secrets in any repo.
