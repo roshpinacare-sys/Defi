@@ -340,3 +340,13 @@
 - **Recovery re-codified:** /home/z/.fleet-restore/restore.sh (outside repos; creds from live remotes into 600-perm file, never printed/committed) — check exit 0: Domain/Defi/steem local-ok, Console/Zip/saos-dex rail-reachable. Sandbox-wipe class 4 is now one-command recovery.
 - **Registry row 51** (canon-liveness, verify-only, tier A) per the new-agent-row law; recruit.yml runs the desk + persists its receipts; sovereignty.md v1.0.4 §5 + AGENTS.md verification bullets.
 - Zero secrets printed or committed anywhere; all runs fail-soft; tier C items untouched (hiveswap 0.310 owner-desk row, BEE 1.853 EXP-UNRESOLVED, fuel pacing, keys).
+
+### Z-43 — hands wave (2026-10-03T01:4xZ) · CR-0006 judged PASS
+
+- **Operator order:** "בוא נבין מה יש לנו בידיים וננסה לתת לאוטונומיה הריבונית עוד יכולות ועוד כוח" + trycua/cua as the example — capability inventory first, then expansion inside the law.
+- **Research wave Z-43-a (subagent, worklog):** trycua/cua mapped — "give agents computers" (agent↔computer loop, VM sandboxes, benchmarks). MIT core; their runtime class NOT adoptable here (docker/podman/qemu/runsc/VMX all measured ABSENT 2026-10-03T01:26Z); their cloud fleet = tier C. PATTERNS adopted: probe-before-trust, permission-at-launch, action ladder.
+- **Live probes (receipts):** agent-browser 0.38.1 present → computer-use loop PROVEN (example.com title "Example Domain" + 58,613B screenshot, 01:26:52Z); git rail ls-remote LIVE; keyless HTTP 200.
+- **New desk:** Domain agents/hands-book.cjs v1.0.0 (CR-0006) — six hands probed fresh: H1 shell LIVE · H2 git-rail LIVE · H3 browser-gui LIVE · H4 web-keyless LIVE · H5 vm-stack ABSENT (honest) · H6 inference-rails REF (cross-ref rail-ledger, one canon per question); 3 tier-C policy locks booked (cloud computer-use fleets / new keys+fuel / cross-chain); closed verdict enum LIVE/ABSENT/UNREACHABLE/REF/LOCKED-TIER-C — zero hopeful greens.
+- **Judge:** harness-audit v1.10.0 check #31 (hands book: every LIVE receipted, ABSENT honest, locks named) — fresh reconciled run booked below; books 10/10 fresh. **Evals 18/18** (E18 white-box policy-beats-probe + black-box fresh receipt).
+- **Registry row 52** (hands-book) per the new-agent-row law; recruit.yml lane + receipt persistence; sovereignty.md v1.0.5 §5; AGENTS.md bullet.
+- Zero secrets printed or committed; tier C untouched (cua Fleet cloud, new keys, fuel pacing, cross-chain).
