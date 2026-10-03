@@ -328,3 +328,15 @@
 - **Reconciled-tree verification (fresh processes, final):** drill re-run **4/4 CONTAINMENT-PROVEN** at the converged head · evals **14/14** (E1-E14) · judge **33 PASS / 0 WARN / 0 FAIL** · books **9/9 fresh** · CR-0004 judged PASS on the merged tree.
 - **Corrected numbers vs the pre-merge receipt above** (which captured the pre-rebase snapshot): evals E13→E14, suite 13/13→**14/14**, judge v1.5.0/32→**v1.6.0/33**. The pre-merge snapshot was true when written; this addendum is the governing state.
 - **Pushes:** Domain `2f38620d..48c7d39e` (Z-40 + books-syncs + converged re-stamp) · Defi (this addendum) · zero secrets.
+
+### Z-42 — canon reachability wave (2026-10-03T01:0xZ) · CR-0005 judged PASS
+
+- **Operator order:** "בחן את כל הגיט, נתחיל להתלכד ולעבוד כמקשה אחת מסודרת" + "תברר עם הריבונות, אל תשאל אותי" — decided per SOVEREIGNTY LAW: tier B structural change → CR flow; tier C untouched (no keys, no fuel, no new chains).
+- **Full git sweep first:** Domain/Defi/steem fetched + fast-forwarded (sibling noise only, zero conflicts); worklog Z-28..Z-41 re-read; claims cross-checked vs files (registry 50→51 rows, STASIS armed-unfired, drill/evals/judge artifacts fresh).
+- **Live RED root-caused to PROVEN dead leg:** ventures.md 23:44Z "measured ledger unreachable" — venture-desk's only fallback was an ANONYMOUS raw fetch; Defi is PRIVATE (Console public → 200; Defi/steem → 403; raw → 404 both branches). Dead-by-construction fallback removed (venture-desk v1.2.0), leg attribution added (canonLeg field).
+- **New desk:** Domain agents/canon-liveness.cjs v1.0.0 — three named legs, verdict CONTENT-SERVED/RAIL-REACHABLE/CANON-DARK; fresh run: **CONTENT-SERVED · L1 SERVING · L2 RAIL-UP · L3 DEAD-AS-EXPECTED-PRIVATE**; venture-desk re-run GREEN (5 OPEN, ledger earn $0.0034/d vs burn $4.3543/d, doctrine verified, leg named).
+- **Judge:** harness-audit v1.7.0 check #30 (receipt-vs-reality cross-check so stale receipts can't green-wash) — **34 PASS / 0 WARN / 0 FAIL**, books 9/9 fresh. **Evals 15/15** (E15 canon-liveness white+black box). CR-0005 opened→implemented→judged PASS, stamped in-file.
+- **One-bloc laws in doctrine v1.7:** ONE-CANON LAW + CANON-REACHABILITY LAW (CANON-DARK = stop condition).
+- **Recovery re-codified:** /home/z/.fleet-restore/restore.sh (outside repos; creds from live remotes into 600-perm file, never printed/committed) — check exit 0: Domain/Defi/steem local-ok, Console/Zip/saos-dex rail-reachable. Sandbox-wipe class 4 is now one-command recovery.
+- **Registry row 51** (canon-liveness, verify-only, tier A) per the new-agent-row law; recruit.yml runs the desk + persists its receipts; sovereignty.md v1.0.4 §5 + AGENTS.md verification bullets.
+- Zero secrets printed or committed anywhere; all runs fail-soft; tier C items untouched (hiveswap 0.310 owner-desk row, BEE 1.853 EXP-UNRESOLVED, fuel pacing, keys).

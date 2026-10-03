@@ -253,3 +253,37 @@ verbatim; our enforcement is code + schedule), survival-first as the top rule
 without an immutable floor (our C-layer: some things are not amendable by the
 governed), and monitor-and-intervene as a safety strategy (too slow — replaced by
 scheduled judge + fail-closed guards + drills).
+
+## v1.7 — Z-42 convergence amendments (one organized bloc: canon reachability as law)
+
+Operator order: "בחן את כל הגיט... נתחיל להתלכד ולעבוד כמקשה אחת מסודרת" — decide by
+the sovereignty law, do not ask. Root cause PROVEN this wave: the 2026-10-02T23:44Z
+venture-desk honest null came from a STRUCTURALLY DEAD fallback leg — an anonymous
+raw.githubusercontent fetch against a PRIVATE canon repo (Console public → anonymous
+200; Defi/steem private → anonymous 403; anonymous raw → 404 on every branch). A
+fallback that can never succeed is not redundancy; it is a dead nerve wired where a
+nerve should be. Two laws bind from this wave:
+
+- **ONE-CANON LAW** — every question has exactly one governing book. Cross-repo
+  readers do not create shadow copies; they name the book and the LEG it was read
+  from. Where two books would answer the same question, one is superseded in the
+  open (renumbered/merged, never silently duplicated) — the same discipline the
+  parallel-convergence merge (Z-40 addendum) applied to evals and judge versions.
+- **CANON-REACHABILITY LAW** — reachability is a booked fact, never an environment
+  surprise. `Domain/agents/canon-liveness.cjs` probes three NAMED legs: L1
+  sibling/CI checkout serves content · L2 authenticated git rail (embedded remote
+  creds, never printed) · L3 anonymous-raw standing probe (404 = expected for a
+  private canon; a 200 is a booked fact-change, never assumed). Verdict enum
+  CONTENT-SERVED / RAIL-REACHABLE / CANON-DARK with zero hopeful greens; desks
+  booking honest nulls must name the verdict; harness-audit check #30 watches the
+  receipt AND cross-checks it against current reality (a stale receipt can never
+  green-wash a detached context); eval E15 pins both halves. CANON-DARK is a stop
+  condition: no cross-repo number is trusted from an island.
+
+Adopted-from-evidence: dead fallback removed, not retried (venture-desk v1.2.0);
+local recovery re-codified OUTSIDE the fleet dir (/home/z/.fleet-restore/restore.sh,
+creds in a 600-perm file captured from live remotes, never printed/committed — the
+4th sandbox wipe class is now a one-command recovery, CI-unverifiable by design).
+Rejected-on-record: proxying all canon reads through one hub process (a hub is a
+single point of failure we cannot host reliably); making the anonymous leg
+"smarter" with guessed tokens (never — zero-secrets is a non-overridable top-four).
