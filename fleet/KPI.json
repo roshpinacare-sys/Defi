@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-10-04T12:00:50.366Z",
+ "updatedAt": "2026-10-04T15:59:18.351Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -14,10 +14,10 @@
   "noteHe": "L0 = הוכחת-מנוע: צי מלא + רשת בריאה + grid טרי + CI ירוק, 7 ימים רצופים (MISSION-1000 §1). הרצף נספר מקבצי KPI-history — יום חסר שובר את הרצף בכנות."
  },
  "revenuePerDayReal": {
-  "usd": 0,
+  "usd": -0.0053,
   "method": "mission book usdPerDay7dAvg (/api/mission → sovereign/income/daily-*.json) — הכנסה ממומשת בלבד (תיקון D-012 · r132)",
   "breakdown": {
-   "missionBookUsdPerDay": 0,
+   "missionBookUsdPerDay": -0.00531,
    "fuelEngineUsdPerDay": 4.2771,
    "gridExternalFillsLifetimeUsd": 0.229154,
    "note": "תיקון-D-012 (r132): fuelEngine (פאוורדאון SP→נוזלי) אינו נספר עוד ב-revenuePerDayUsd — הוא שריפת-הון, לא הכנסה; נמדד ומוצג בנפרד ב-fuelBurn. Z-9 תיקון-שיטה מול יום-0: מילויי-גריד הם מצטבר-חיים ולא קצב."
@@ -54,8 +54,8 @@
    "proofField": "dex/grid.json#triggers.consumed (published live)",
    "status": "WIRED-PROVEN"
   },
-  "chainRuns24h": 110,
-  "chainOk24h": 109,
+  "chainRuns24h": 7,
+  "chainOk24h": 7,
   "gridConsumedCount": null,
   "gridBookPublishedAt": null,
   "lastCi": {
@@ -116,7 +116,7 @@
   "green": true,
   "streak": 1,
   "historyPath": "fleet/KPI-history/2026-10-04.json",
-  "measuredAt": "2026-10-04T12:00:48.591Z"
+  "measuredAt": "2026-10-04T15:59:16.669Z"
  },
  "distribution": {
   "channel": "Steem @headcorner (posting-only)",
