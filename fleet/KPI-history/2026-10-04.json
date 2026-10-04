@@ -3,7 +3,7 @@
  "format": "kpi-day-v1",
  "day": "2026-10-04",
  "last": {
-  "at": "2026-10-04T12:00:48.591Z",
+  "at": "2026-10-04T15:59:16.669Z",
   "green": true,
   "checks": {
    "missionOk": true,
@@ -11,7 +11,7 @@
    "fleetUp": "9/9",
    "fleetFull": true,
    "gridFresh": true,
-   "gridAgeHours": 6.2,
+   "gridAgeHours": 10.2,
    "ci": {
     "id": null,
     "conclusion": "no-run-found",
@@ -21,19 +21,19 @@
    "secretsBlockedToday": 0
   },
   "measured": {
-   "revenuePerDayUsd": 0,
+   "revenuePerDayUsd": -0.0053,
    "fuelBurnRemainingWeeks": 4,
    "fuelEngineUsdPerDay": 4.2771,
-   "missionBookUsdPerDay": 0,
+   "missionBookUsdPerDay": -0.00531,
    "daysRecorded": 8,
    "gridExternalFillsLifetimeUsd": 0.229154,
-   "capitalUsd": 1.26,
-   "capitalSteemInOrders": 3.245,
-   "capitalSteemTotal": 16.426,
-   "steemUsd": 0.06345,
+   "capitalUsd": 0.69,
+   "capitalSteemInOrders": 1.783,
+   "capitalSteemTotal": 7.426,
+   "steemUsd": 0.06316,
    "triggers": {
-    "chainRuns24h": 110,
-    "chainOk24h": 109,
+    "chainRuns24h": 7,
+    "chainOk24h": 7,
     "gridConsumedCount": null
    }
   },
@@ -51,7 +51,7 @@
  },
  "runs": [
   {
-   "at": "2026-10-04T12:00:48.591Z",
+   "at": "2026-10-04T15:59:16.669Z",
    "green": true,
    "checks": {
     "missionOk": true,
@@ -59,7 +59,7 @@
     "fleetUp": "9/9",
     "fleetFull": true,
     "gridFresh": true,
-    "gridAgeHours": 6.2,
+    "gridAgeHours": 10.2,
     "ci": {
      "id": null,
      "conclusion": "no-run-found",
@@ -69,19 +69,19 @@
     "secretsBlockedToday": 0
    },
    "measured": {
-    "revenuePerDayUsd": 0,
+    "revenuePerDayUsd": -0.0053,
     "fuelBurnRemainingWeeks": 4,
     "fuelEngineUsdPerDay": 4.2771,
-    "missionBookUsdPerDay": 0,
+    "missionBookUsdPerDay": -0.00531,
     "daysRecorded": 8,
     "gridExternalFillsLifetimeUsd": 0.229154,
-    "capitalUsd": 1.26,
-    "capitalSteemInOrders": 3.245,
-    "capitalSteemTotal": 16.426,
-    "steemUsd": 0.06345,
+    "capitalUsd": 0.69,
+    "capitalSteemInOrders": 1.783,
+    "capitalSteemTotal": 7.426,
+    "steemUsd": 0.06316,
     "triggers": {
-     "chainRuns24h": 110,
-     "chainOk24h": 109,
+     "chainRuns24h": 7,
+     "chainOk24h": 7,
      "gridConsumedCount": null
     }
    },
