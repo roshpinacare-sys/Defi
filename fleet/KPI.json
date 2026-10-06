@@ -1,7 +1,7 @@
 {
  "ok": true,
  "version": 1,
- "updatedAt": "2026-10-06T04:26:56.530Z",
+ "updatedAt": "2026-10-06T19:36:54.037Z",
  "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
  "mission": "MISSION-1000",
  "ladder": {
@@ -9,7 +9,7 @@
   "next": "L1",
   "targetPerDay": 0,
   "proven": false,
-  "consecutiveGreenDays": 1,
+  "consecutiveGreenDays": 0,
   "asOfDay": "2026-10-06",
   "noteHe": "L0 = הוכחת-מנוע: צי מלא + רשת בריאה + grid טרי + CI ירוק, 7 ימים רצופים (MISSION-1000 §1). הרצף נספר מקבצי KPI-history — יום חסר שובר את הרצף בכנות."
  },
@@ -47,14 +47,14 @@
    "proofField": "dex/grid.json#triggers.consumed (published live)",
    "status": "WIRED-PROVEN"
   },
-  "chainRuns24h": 5,
-  "chainOk24h": 5,
-  "gridConsumedCount": null,
-  "gridBookPublishedAt": null,
+  "chainRuns24h": null,
+  "chainOk24h": null,
+  "gridConsumedCount": 0,
+  "gridBookPublishedAt": "2026-10-06T14:35:57.619Z",
   "lastCi": {
-   "id": null,
-   "conclusion": "no-run-found",
-   "createdAt": null
+   "id": 37519999825,
+   "conclusion": "success",
+   "createdAt": "2026-10-06T19:34:35Z"
   }
  },
  "agents": {
@@ -106,10 +106,10 @@
  },
  "dailyRecord": {
   "day": "2026-10-06",
-  "green": true,
-  "streak": 1,
+  "green": false,
+  "streak": 0,
   "historyPath": "fleet/KPI-history/2026-10-06.json",
-  "measuredAt": "2026-10-06T04:26:54.894Z"
+  "measuredAt": "2026-10-06T19:36:51.918Z"
  },
  "distribution": {
   "channel": "Steem @headcorner (posting-only)",
