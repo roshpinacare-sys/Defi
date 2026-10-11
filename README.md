@@ -1,5 +1,14 @@
 # Defi — בית שכבת ה-DeFi הריבונית של הרשת
 
+**ROLE (declared 2026-10-11, task 10-c un-silence sweep):** the **canon +
+receipts home of the DeFi layer** — fleet/ charter, phase0-kit, and the
+keeper/money/pulse journals with HONEST receipts ($0 placed, lifetime
+$0.29, "simulation" caveats). The live /api/defi router lives in Zip only.
+Why it was muted: receipts decayed after the 10-06/10-08 billing cutoff;
+canon needed no writer. Revival path: resume the receipt writers when the
+engines trade again (the routers already reference this tree), and re-run
+its 3 dispatch-only workflows on free minutes.
+
 > התיקייה שנפתחה בהוראת המפעיל (2026-09-21): "להבין איך לנתב כלי defi
 > ולהשתמש בהם נכון לטובת הרשת. המטרה חוסר תלות במשתמשים — הסוכנים
 > הם המשתמשים בהקמת ריבונות כלכלית אוטונומית מתפתחת."
