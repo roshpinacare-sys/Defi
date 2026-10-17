@@ -350,3 +350,18 @@
 - **Judge:** harness-audit v1.10.0 check #31 (hands book: every LIVE receipted, ABSENT honest, locks named) — fresh reconciled run booked below; books 10/10 fresh. **Evals 18/18** (E18 white-box policy-beats-probe + black-box fresh receipt).
 - **Registry row 52** (hands-book) per the new-agent-row law; recruit.yml lane + receipt persistence; sovereignty.md v1.0.5 §5; AGENTS.md bullet.
 - Zero secrets printed or committed; tier C untouched (cua Fleet cloud, new keys, fuel pacing, cross-chain).
+
+---
+
+## גל AGENT-Z2 — הכשרת-אמת 2026-10-17 (אישור-בעלים: "בוא נתחיל ודחוף")
+
+| ID | משימה | ריפו/מיקום | מדרגה | סטטוס | תובע | ראיה |
+|---|---|---|---|---|---|---|
+| Z2-1 | הצלבת 9 דוחות-ביקורת + אימות עצמאי ראשון-יד של 10 טענות על HEAD חי | Defi/fleet/audits | L0 | **DONE** | AGENT-Z2 | `audits/2026-10-17-Z2-CROSS-AGENT-VERIFICATION.md` |
+| Z2-2 | תיקון ci.yml של saos-dex — `branches: ain]` → `[main]` (שער-push היחיד של הצי היה מת) | saos-dex/.github/workflows/ci.yml | L0 | **DONE** | AGENT-Z2 | read-back sha ב-CLAIMS זה |
+| Z2-3 | תיקון route.ts:116 של saos-control-center — סוגר תועה הופך vault-login ללא-קומפילציה | saos-control-center/src/app/api/vault/login/route.ts | L0 | **DONE** | AGENT-Z2 | read-back sha ב-CLAIMS זה |
+| Z2-4 | מדידת-אמת של דלגר fleet-economy ב-HEAD + אבחון-שורש שברים-חוזרים (40+ brokenAt ביום) — דוח בנתיב-חדש state/audit/ | fleet-economy/state/audit/ | L1 | **CLAIMED** | AGENT-Z2 | דוח יצורף בקומיט נפרד |
+| Z2-5 | אדביזורי אבטחה R11B — vault-home recovery-meta (סוד-משמורת חי) + Saosmartwallet db/custom.db (4MB כספת ב-HEAD); ללא-גע ב-custody חי; רוטציה=שער-בעלים X-1 | vault-home + Saosmartwallet | L0 | **DONE** | AGENT-Z2 | SECURITY-ADVISORY בשני הריפואים |
+| Z2-6 | תיוג-אמת לנפח-שטיפה: washTick מורשה-בעלים בכתב, אך נפח-עצמי מוצג בלי-תיוג מול מילויים-חיצוניים — דרוש תיוג-תצוגה (שער-בעלים על מנוע-חי) | saos-dex (showcase/display) | L1 | **OPEN** | AGENT-Z2 | audits doc §V6 |
+| Z2-7 | fill-proof ל-saos-desk R361: הוכחת-מילויים מברוקר/קבלה לפני שהמילה "live" מתקבלת כאמת | saos-desk | L1 | **OPEN** | AGENT-Z2 | audits doc §V5 |
+| Z2-8 | ניקוי-אזהרה: keys-registry ב-FleetHQ נסרק ונמצא נקי-חומר-גלמי (רק תחיליות+קבלות) — סותם אזהרת-ביקורת | FleetHQ/src/data/keys-registry.json | L0 | **DONE** | AGENT-Z2 | audits doc §V8 |
