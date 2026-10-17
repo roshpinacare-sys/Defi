@@ -358,10 +358,12 @@
 | ID | משימה | ריפו/מיקום | מדרגה | סטטוס | תובע | ראיה |
 |---|---|---|---|---|---|---|
 | Z2-1 | הצלבת 9 דוחות-ביקורת + אימות עצמאי ראשון-יד של 10 טענות על HEAD חי | Defi/fleet/audits | L0 | **DONE** | AGENT-Z2 | `audits/2026-10-17-Z2-CROSS-AGENT-VERIFICATION.md` |
-| Z2-2 | תיקון ci.yml של saos-dex — `branches: ain]` → `[main]` (שער-push היחיד של הצי היה מת) | saos-dex/.github/workflows/ci.yml | L0 | **DONE** | AGENT-Z2 | read-back sha ב-CLAIMS זה |
+| Z2-2 | תיקון ci.yml — **CORRECTED: הופרך באימות-בייטים; הקובץ מעולם לא היה שבור** (ארטיפקט-תצוגה V11; המצב-האמיתי: כל-9-workflows disabled_manually — דוקטרינת-דלק, לא שבר) | saos-dex/.github/workflows/ci.yml | L0 | **CORRECTED** | AGENT-Z2 | codepoints 91-109-97-105-110-93 + Actions-API state list |
 | Z2-3 | תיקון route.ts:116 של saos-control-center — סוגר תועה הופך vault-login ללא-קומפילציה | saos-control-center/src/app/api/vault/login/route.ts | L0 | **DONE** | AGENT-Z2 | read-back sha ב-CLAIMS זה |
 | Z2-4 | מדידת-אמת של דלגר fleet-economy ב-HEAD + אבחון-שורש שברים-חוזרים (40+ brokenAt ביום) — דוח בנתיב-חדש state/audit/ | fleet-economy/state/audit/ | L1 | **CLAIMED** | AGENT-Z2 | דוח יצורף בקומיט נפרד |
 | Z2-5 | אדביזורי אבטחה R11B — vault-home recovery-meta (סוד-משמורת חי) + Saosmartwallet db/custom.db (4MB כספת ב-HEAD); ללא-גע ב-custody חי; רוטציה=שער-בעלים X-1 | vault-home + Saosmartwallet | L0 | **DONE** | AGENT-Z2 | SECURITY-ADVISORY בשני הריפואים |
 | Z2-6 | תיוג-אמת לנפח-שטיפה: washTick מורשה-בעלים בכתב, אך נפח-עצמי מוצג בלי-תיוג מול מילויים-חיצוניים — דרוש תיוג-תצוגה (שער-בעלים על מנוע-חי) | saos-dex (showcase/display) | L1 | **OPEN** | AGENT-Z2 | audits doc §V6 |
 | Z2-7 | fill-proof ל-saos-desk R361: הוכחת-מילויים מברוקר/קבלה לפני שהמילה "live" מתקבלת כאמת | saos-desk | L1 | **OPEN** | AGENT-Z2 | audits doc §V5 |
 | Z2-8 | ניקוי-אזהרה: keys-registry ב-FleetHQ נסרק ונמצא נקי-חומר-גלמי (רק תחיליות+קבלות) — סותם אזהרת-ביקורת | FleetHQ/src/data/keys-registry.json | L0 | **DONE** | AGENT-Z2 | audits doc §V8 |
+| Z2-9 | תיעוד ממצא-מערכתי: בולע-תצוגה [m בסנדבוקסים מזהם מדידות-ביקורת; נוסח-חוק אימות-בייטים | Defi/fleet/audits/2026-10-17-Z2-CROSS-AGENT-VERIFICATION.md V11 | L0 | **DONE** | AGENT-Z2 | קומיט זה |
+| Z2-10 | החלטת-בעלים: לאפשר מחדש את workflows-ה-saos-dex (dex-ci, dex-beat, gitleaks ועוד — כולם disabled_manually)? בלעדיהם אין-שער-push ואין-סריקת-סודות אוטומטית | saos-dex/.github/workflows | L1 | **OPEN — שער-בעלים** | AGENT-Z2 | Actions API: state=disabled_manually ×9 |
