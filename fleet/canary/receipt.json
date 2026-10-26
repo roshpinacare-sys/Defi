@@ -1,5 +1,5 @@
 {
-  "measuredAt": "2026-10-25T22:49:52.623Z",
+  "measuredAt": "2026-10-26T00:36:43.804Z",
   "artery": "artery-defi (Autonomy public push layer, covenant fleet-verify)",
   "kpiSha16": "3d308437fbfd7c0f",
   "ladder": {
@@ -9,8 +9,8 @@
   },
   "revenuePerDayRealUsd": 0,
   "mission1000": "present",
-  "historyCount": 20,
+  "historyCount": 21,
   "historyLatest": "2026-10-25",
-  "snapshotToday": false,
+  "snapshotToday": true,
   "gate": "chirp — the canary lives in the public artery run log (walled repo, wall bypassed by covenant)"
 }
