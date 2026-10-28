@@ -1,0 +1,126 @@
+{
+ "ok": true,
+ "version": 1,
+ "updatedAt": "2026-10-06T19:36:54.037Z",
+ "updatedBy": "kpi-scribe v1.0.0 (measured — Z-9)",
+ "mission": "MISSION-1000",
+ "ladder": {
+  "current": "L0",
+  "next": "L1",
+  "targetPerDay": 0,
+  "proven": false,
+  "consecutiveGreenDays": 0,
+  "asOfDay": "2026-10-06",
+  "noteHe": "L0 = הוכחת-מנוע: צי מלא + רשת בריאה + grid טרי + CI ירוק, 7 ימים רצופים (MISSION-1000 §1). הרצף נספר מקבצי KPI-history — יום חסר שובר את הרצף בכנות."
+ },
+ "revenuePerDayReal": {
+  "usd": 0,
+  "method": "mission book usdPerDay7dAvg (/api/mission → sovereign/income/daily-*.json) — הכנסה ממומשת בלבד (תיקון D-012 · r132)",
+  "breakdown": {
+   "missionBookUsdPerDay": 0,
+   "fuelEngineUsdPerDay": 0,
+   "gridExternalFillsLifetimeUsd": 0.293954,
+   "note": "תיקון-D-012 (r132): fuelEngine (פאוורדאון SP→נוזלי) אינו נספר עוד ב-revenuePerDayUsd — הוא שריפת-הון, לא הכנסה; נמדד ומוצג בנפרד ב-fuelBurn. Z-9 תיקון-שיטה מול יום-0: מילויי-גריד הם מצטבר-חיים ולא קצב."
+  },
+  "fuelBurn": null,
+  "sources": [
+   "/api/mission → measured.usdPerDay7dAvg (sovereign/income/daily-*.json)",
+   "/api/mission → capital (מוביל-הכסף)",
+   "Console/dex/grid.json#fuel (raw, נמדד בזמן-ריצה — fuelBurn בלבד)",
+   "Console/dex/grid.json#externalFlowUsd (מצטבר-חיים)"
+  ],
+  "caveat": "פנימי-בלבד: עמלות USDS ו-APY הן סימולציה — לא נספרות כהכנסה. fuelBurn = פאוורדאון SP חוץ אמיתי — קצב שריפת-הון עם תאריך-סיום, לעולם לא קצב הכנסה."
+ },
+ "triggers": {
+  "engine": "Console/triggers trigger-mesh v1.0.0",
+  "rules": 7,
+  "firstCiRun": {
+   "id": 36415329040,
+   "conclusion": "success",
+   "botCommit": "f889a5b"
+  },
+  "firedToday": 0,
+  "note": "אין טריגרים נצרכים במחזור האחרון — תוצאה כנה, לא תקלה",
+  "loopWiring": {
+   "consumer": "Console/agents/grid-pulse.mjs (R130 Z-5)",
+   "proofCiRun": 36416251171,
+   "proofField": "dex/grid.json#triggers.consumed (published live)",
+   "status": "WIRED-PROVEN"
+  },
+  "chainRuns24h": null,
+  "chainOk24h": null,
+  "gridConsumedCount": 0,
+  "gridBookPublishedAt": "2026-10-06T14:35:57.619Z",
+  "lastCi": {
+   "id": 37519999825,
+   "conclusion": "success",
+   "createdAt": "2026-10-06T19:34:35Z"
+  }
+ },
+ "agents": {
+  "registered": [
+   "AGENT-Z"
+  ],
+  "pending": [
+   "AGENT-B",
+   "AGENT-C"
+  ],
+  "claimsOpen": [
+   "B-1",
+   "B-3",
+   "C-3",
+   "X-1",
+   "X-2"
+  ],
+  "operatorGates": [
+   "X-1 key rotation",
+   "X-2 L2 capital"
+  ],
+  "claimsClosedToday": [
+   "Z-5",
+   "C-2(fallback)",
+   "Z-7",
+   "Z-8",
+   "B-2",
+   "C-1"
+  ]
+ },
+ "compliance": {
+  "secretsInCommits": 0,
+  "unmeasuredClaims": 0,
+  "phase0Done": false,
+  "secretsBlockedToday": 0
+ },
+ "selfCorrections": 1,
+ "contractTests": {
+  "engine": "Foundry (forge 1.6.0, solc 0.8.36)",
+  "tests": 46,
+  "branch": "saos-sovereign-platform@fleet/r130 (9442b13)",
+  "ciProof": {
+   "repo": "Domain (public twin)",
+   "run": 36419435079,
+   "conclusion": "success"
+  },
+  "law": "audit-fix v5 regression: MINT_CAP / no-phantom-supply invariant / deposit attribution / monotonic anchors",
+  "note": "הריפו הפרטי אזל ממכסת Actions — השער רץ כ-twin יומי ב-Domain"
+ },
+ "dailyRecord": {
+  "day": "2026-10-06",
+  "green": false,
+  "streak": 0,
+  "historyPath": "fleet/KPI-history/2026-10-06.json",
+  "measuredAt": "2026-10-06T19:36:51.918Z"
+ },
+ "distribution": {
+  "channel": "Steem @headcorner (posting-only)",
+  "product": "daily-digest — measured daily mission report, all numbers source-named",
+  "cadence": "daily 01:10 UTC (Domain/agents/daily-digest.mjs)",
+  "firstBroadcast": {
+   "permlink": "saos-daily-20260928",
+   "txid": "4c98a9fbd5ef4fc04a05a9e7092ef5617c449ef0",
+   "run": 36422790484,
+   "verifiedOnChain": true
+  },
+  "note": "הערוץ היומי האוטונומי הראשון של הצי — דברים-גוררים-דברים: מדידה → דיווח → חשיפה חיצונית"
+ }
+}
